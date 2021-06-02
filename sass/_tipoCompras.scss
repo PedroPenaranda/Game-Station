@@ -1,0 +1,53 @@
+.metodopago1--contenedor{
+    background-color: rgba(121, 117, 117, 0.493);
+    border-top: 4px ridge rgb(80, 70, 70);
+    border-bottom: 4px groove rgb(80, 70, 70);
+    height: 300px;
+    margin-top: 15px;
+
+    .txtPago{
+        color: black;
+        font-weight: bold;
+    }
+
+    .metodopago1__tarjeta--contenedor{
+        img{
+            animation: tarjeta 5s infinite 0s;
+        }
+    }
+
+    .metodopago1__escudo--contenedor{
+        img{
+            animation: escudo 8s infinite 0s;
+        }
+    }
+
+    .metodopago1__auto--contenedor{
+        img{
+            animation: car 9s infinite 0s;
+        }
+    }
+}
+
+/* animacion de tarjeta */
+@keyframes tarjeta{
+    0%{transform: translate(65px);}
+    50%{transform: translate(-10px);}
+    100%{transform: translate(65px);}
+}
+
+/* animacion de escudo */
+@keyframes escudo{
+    0%{transform: translate(30px) perspective(150px) rotateY(45deg);}
+    50%{transform: translate(-30px) perspective(150px) rotateY(-45deg);}
+    100%{transform: translate(30px) perspective(150px) rotateY(45deg);}
+}
+
+/* animacion de auto */
+@keyframes car{
+    0%{transform: translate(65px);}
+    25%{transform: translate(-20px);}
+    50%{transform: translate(-20px) perspective(200px) rotateY(-180deg);}
+    75%{transform: translate(65px) perspective(200px) rotateY(-180deg);}
+    100%{transform: translate(65px) perspective(200px) rotateY(0deg);}
+}

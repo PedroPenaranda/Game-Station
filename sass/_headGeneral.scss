@@ -1,0 +1,67 @@
+.contHead{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    h1{
+        .gstation__titulo{
+            text-decoration: none;
+            letter-spacing: 1rem;
+            font-size: 55px;
+            color: #ff8300;
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: bolder;
+            position: relative;
+            top: 25px;
+        }
+    }
+    
+    .logo-head{
+        margin: 15px 15px;
+        width: 90px;
+        height: 90px;
+        animation: logogs 25s infinite;
+        transform: rotate(1deg);
+    }
+
+    @keyframes logogs {
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(-360deg);}
+    }
+
+    /* buscador */
+    .contHead-buscar{
+        input{
+            height: 30px;
+            border: 1px solid #ff8300;
+            border-radius: 6px 0px 0px 6px;
+        }
+        .btn-buscar{
+            padding: 3.5px;
+            border: 0px;
+            background: #ff8300;
+            border-radius: 0px 6px 6px 0px;
+            height: 30px;
+            img{
+                padding: 2px;
+               height: 28px;
+               width: auto;
+               position: relative;
+               top: -2.3px;
+            }
+        }
+    }
+
+    /* imagenes de carrito y usuario*/
+    .contHead-carUsu{
+        .contHead__carrito--carUsu{
+            margin-right: 10px;
+            background-image: linear-gradient(to bottom, #ff8300,#8d4d09);
+            border-radius: 100%;
+            padding: 1px;
+            border: 1px solid white;
+        }
+        .contHead__usuario--carUsu{
+            @extend .contHead__carrito--carUsu;
+        }
+    }
+}

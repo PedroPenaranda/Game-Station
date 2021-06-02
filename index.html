@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Itim&display=swap" rel="stylesheet">
+
+
+    <!-- boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="sass/estilos.css">
+
+    <!-- nombre en la pestania del navegador -->
+    <title>Game Station - Tu tienda online</title>
+
+    <!-- SEO meta description -->
+    <meta name="description" content="En Game Station encontrarás lo que necesitas para sentarte a jugar y disfrutar por horas, tanto como VÍDEO JUEGOS como para armar tu primera COMPUTADORA GAMER. No te pierdas ninguna novedad con nosotros, únite.">
+
+    <!-- SEO meta keywords -->
+    <meta name="keywords" content="Novedades, ofertas, tienda, jugadores, gamers, gaming, articulos, electronicos, comprar, playtation, playtation 4, playstation 5, xbox, xbox one, computadora, pc, razer, corsair, redragon, intel, amd, nintendo, nintendo switch, consolas, joyticks, control, juegos, headsets, auriculares, accesorios, monitores, gabintes, mouses, teclados, motherborads, placa madre, fuentes de poder, placas de video, procesadores">
+
+    <!-- SEO meta sitedomain -->
+    <meta name="sitedomain" content="www.GameStation.com">
+
+    <!-- SEO meta robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- SEO googlebot -->
+    <meta name="googlebot" content="index,follow">
+
+    <!-- contenedor del logo titulo buscador carrito usuario --> 
+    <div class="contHead"> 
+        <div class="contHead-logTituPrincipal d-flex">
+          <!-- logo principal -->
+          <img src="imagen/logo/Logo 2.png" alt="logoPrincipal" class="logo-head">
+
+          <!-- titulo principal -->
+          <h1><a href="index.html" class="gstation gstation__titulo">GAME STATION</a></h1>
+        </div>
+        <!-- buscador -->
+        <div class="contHead-buscar">
+          <input type="text" placeholder="Buscar"><button type="submit" class="btn-buscar"><img src="imagen/otros/lupa.png" alt=""></button>
+        </div>
+
+        <!-- carrito y usario -->
+        <div class="contHead-carUsu">
+          <a href="compras.html"><img src="imagen/otros/carrtio.png" alt="carrito" class="contHead__carrito--carUsu"></a>
+          <img src="imagen/otros/persona.png" alt="usuario" class="contHead__usuario--carUsu">
+        </div>
+    </div>
+</head>
+
+<body>
+    <header class="head">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid col-12 col-lg-5">
+                <a class="nav-link" href="index.html"><img src="imagen/imagenes de menu/imggs.png" alt="home" class="imgGs__menu"><h5 class="h5Home">Home</h5></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" body>
+                    <ul class="navbar-nav">
+
+                      <!-- menu playstation -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="playstation.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagen/imagenes de menu/imgps.png" alt="playstation" class="imgPs__menu"><h5 class="h5Ps">Playstation</h5></a>
+                          <ul class="dropdown-menu subps__menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="playstation.html">Consolas</a></li>
+                            <li><a class="dropdown-item" href="playstation.html">Juegos</a></li>
+                            <li><a class="dropdown-item" href="playstation.html">Joysticks</a></li>
+                            <li><a class="dropdown-item" href="playstation.html">Headsets</a></li>
+                          </ul>
+                      </li>
+
+                      <!-- manu xbox -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="xbox.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgxbox.png" alt="xbox" class="imgXbox__menu"><h5 class="h5Xbox">Xbox</h5></a>
+                          <ul class="dropdown-menu subxbox__menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="xbox.html">Consolas</a></li>
+                            <li><a class="dropdown-item" href="xbox.html">Juegos</a></li>
+                            <li><a class="dropdown-item" href="xbox.html">Joysticks</a></li>
+                            <li><a class="dropdown-item" href="xbox.html">Headsets</a></li>
+                          </ul>
+                      </li>
+
+                      <!-- manu pc -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="pc.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgpc.png" alt="pc" class="imgPc__menu"><h5 class="h5Pc">Pc</h5></a>
+                          <ul class="dropdown-menu subpc__menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="pc.html">Monitores</a></li>
+                            <li><a class="dropdown-item" href="pc.html">Teclados</a></li>
+                            <li><a class="dropdown-item" href="pc.html">Mouses</a></li>
+                            <li><a class="dropdown-item" href="pc.html">Headsets</a></li>
+                          </ul>
+                      </li>
+
+                      <!-- menu nintendo -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="nintendo.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgnintendo.png" alt="nintendo" class="imgNintendo__menu"><h5 class="h5Nintendo">Nintendo</h5></a>
+                          <ul class="dropdown-menu subnintendo__menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="nintendo.html">Consolas</a></li>
+                            <li><a class="dropdown-item" href="nintendo.html">Juegos</a></li>
+                            <li><a class="dropdown-item" href="nintendo.html">Accesorios</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <!-- carrusel de novedades -->
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleControls" class="carousel slide carousel--novedades" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <!-- imagen carrusel 1 -->
+            <div class="carousel-item active">
+              <img src="imagen/novedades/dragonteclado.png" class="d-block w-100" alt="teclado">
+            </div>
+
+            <!-- imagen carrusel 2 -->
+            <div class="carousel-item">
+              <img src="imagen/novedades/mouselogitech.png" class="d-block w-100" alt="mouse">
+            </div>
+
+            <!-- imagen carrusel 3 -->
+            <div class="carousel-item">
+              <img src="imagen/novedades/ps5white.png" class="d-block w-100" alt="consola">
+            </div>
+          </div>
+
+          <!-- botones dentro del carrusel -->
+          <div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon boton" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon boton" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- linea division horarios -->
+      <hr class="linea linea--horarios">
+
+      <!-- horarios -->
+      <div class="horario">
+        <span class="horario--title"><h5>Horarios de atención</h5></span>
+        <span class="horario--dias"><p>Lunes a Viernes de 10hs a 18hs </p></span>
+        <span class="horario--dias"><p>Sabados de 10hs a 16hs</p></span>
+        <span class="horario--dias"><p>Domingos Cerrado</p></span>
+        <span class="horario--dias"><p><em>Feriados el horario es de 11hs a 15hs</em></p></span>
+      </div>
+
+      <!-- metodos de pago -->
+      <div class="metodopago1--contenedor d-flex justify-content-around align-items-center">
+        <div class="metodopago1__tarjeta--contenedor">
+          <img src="imagen/metodo de envio/tarjetamano.png" alt="">
+          <span class="txtPago"><p>Paga con tarjeta o efectivo</p></span>
+        </div>
+
+        <div class="metodopago1__escudo--contenedor">
+          <img src="imagen/metodo de envio/escudo.png" alt="">
+          <span class="txtPago"><p>Compra protegida</p></span>
+        </div>
+
+        <div class="metodopago1__auto--contenedor">
+          <img src="imagen/metodo de envio/autoenvio.png" alt="">
+          <span class="txtPago"><p>Envio o retiro en sucursal</p></span>
+        </div>
+      </div>
+    </main>
+    
+    <!-- footer -->
+    <footer class="footer footer--fondo">
+
+      <!-- parte de arriba del footer -->
+      <div class="seccion--footer seccion__arriba--footer">
+        <div class="seccion seccion--comprar row">
+          <h5 class="h5 h5--titulo">Comprar</h5>
+          <a href="#">¿Cómo comprar?</a>
+          <a href="#">Lista de juegos</a>
+          <a href="#">Colecciones</a>
+          <a href="#">Tienda</a>
+        </div>
+
+        <!-- seccion ayuda del footer -->
+        <div class="seccion seccion--ayuda d-flex row">
+          <h5 class="h5 h5--titulo">Ayuda</h5>
+            <a href="#">¿Necesitas ayuda?</a>
+            <a href="#">Crear comprabante</a>
+        </div>
+
+        <!-- seccion comunidad del footer -->
+        <div class="seccion seccion--comunidad d-flex row">
+          <h5 class="h5 h5--titulo">Comunidad</h5>
+          <a href="#">Blog</a>
+          <a href="#">Sorteos</a>
+          <a href="#">Novedades</a>
+          <a href="#">Ofertas</a>
+        </div>
+
+        <!-- seccion nuevos productos del footer -->
+        <div class="seccion seccion--nproductos d-flex row">
+          <h5 class="h5 h5--titulo">Nuestros productos</h5>
+          <a href="playstation.html">Playstation</a>
+          <a href="xbox.html">Xbox</a>
+          <a href="nintendo.html">Nintendo</a>
+          <a href="pc.html">PC</a>
+        </div>
+
+        <!-- seccion soporte del footer -->
+        <div class="seccion seccion--soporte d-flex row">
+          <h5 class="h5 h5--titulo">Soporte</h5>
+          <a href="#">FAQ</a>
+          <a href="#">Términos y condiciones</a>
+          <a href="#">Políticas de privacidad</a>
+          <a href="#">Contactanos</a>
+        </div>
+      </div>
+
+      <!-- linea de division en el footer -->
+      <hr class="linea linea--footer">
+
+      <!-- parte de abajo del footer -->
+      <div class="seccion seccion--footer seccion__abajo--footer">
+        <div class="seccion seccion--rsociales">
+          <div class="rSocial--titulo">
+            <h5>Seguinos en nuestras redes sociales</h5>
+          </div>
+            <div class="face">
+              <img src="imagen/redesociales/facebook.png" alt="facebook">
+            </div>
+            
+            <div class="insta">
+              <img src="imagen/redesociales/instagram.png" alt="instagram">
+            </div>
+  
+            <div class="twit">
+              <img src="imagen/redesociales/twitter.png" alt="twitter">
+            </div>
+  
+            <div class="discor">
+              <img src="imagen/redesociales/discord.png" alt="discord">
+            </div>
+        </div>
+
+        <!-- nuevas novedades por mail -->
+        <div class="mb-3 mail-footer">
+          <label for="exampleInputEmail1" class="form-label mail__lbl--footer">Para nuevas novedades:</label>
+          <div class="d-flex cont-emBtn">
+            <input type="email" class="form-control input-mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su mail aqui">
+            <button type="submit" class="btn mail__btn--footer">Enviar</button>
+          </div>
+        </div>
+
+        <div class="img img--logo">
+          <img src="imagen/logo/logo 2.png" alt="logoFooter">
+        </div>
+      </div>
+    </footer>
+
+    <!-- boostrap  java script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

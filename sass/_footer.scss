@@ -1,0 +1,117 @@
+.footer{
+    height: 400px;
+    background-color: rgba(255, 166, 0, 0.651);
+}
+
+.seccion__arriba--footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 25px;
+    .h5--titulo{
+        color: black;
+        padding: 0px 15px;
+    }
+    a{
+        text-decoration: none;
+        width: 90%;
+        padding: 3px 20px;
+        color: white;
+        transition: 1s;
+    }
+    a:hover{
+        color: blue;
+        transform: translate(5px);
+    }
+}
+
+.linea--footer{
+    width: 90%;
+    justify-content: center;
+    background-color: white;
+}
+
+.seccion__abajo--footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "social . logoFoot";
+    align-items: center;
+    justify-content: center;
+}
+
+.img--logo{
+    grid-area: logoFoot;
+    img{
+        padding: 6px;
+        width: 100px;
+        height: 100px;
+        background-image: linear-gradient(to bottom,black,rgb(37, 33, 33) );
+        border-radius: 100%;
+        border: 1px solid white;
+        position: relative;
+        left: 30%;
+    }
+}
+
+/* mail para recibir novedades */
+.mail-footer{
+    color: rgb(0, 0, 0);
+        .input-mail{
+            width: 80%;
+            border-radius: 40px 0px 0px 40px;
+          
+        }
+        .mail__btn--footer{
+            color: white;           
+            width: 20%;
+            border-radius: 0px 40px 40px 0px;
+            border: 1px solid white;
+        }
+}
+
+
+.seccion--rsociales{
+    grid-area: social;
+    padding: 22px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "rsocial rsocial rsocial rsocial rsocial ."
+                         "face insta twit discor . .";
+    h5{
+        color: black;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        transition: 0.5s;
+    }
+
+    img:hover{
+        transform: rotateY(360deg);
+    }   
+}
+
+.rSocial--titulo{
+    grid-area: rsocial;
+}
+
+.face{
+    grid-area: face;
+    padding: 20px 0px;
+}
+
+.insta{
+    grid-area: insta;
+    padding: 20px 0px;
+}
+
+.twit{
+    grid-area: twit;
+    padding: 20px 0px;
+}
+
+.discor{
+    grid-area: discor;
+    padding: 20px 0px;
+}

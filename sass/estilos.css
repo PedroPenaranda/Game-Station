@@ -1,0 +1,1577 @@
+.contHead {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* buscador */
+  /* imagenes de carrito y usuario*/
+}
+
+.contHead h1 .gstation__titulo {
+  text-decoration: none;
+  letter-spacing: 1rem;
+  font-size: 55px;
+  color: #ff8300;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 25px;
+}
+
+.contHead .logo-head {
+  margin: 15px 15px;
+  width: 90px;
+  height: 90px;
+  -webkit-animation: logogs 25s infinite;
+          animation: logogs 25s infinite;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+}
+
+@-webkit-keyframes logogs {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes logogs {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+.contHead .contHead-buscar input {
+  height: 30px;
+  border: 1px solid #ff8300;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.contHead .contHead-buscar .btn-buscar {
+  padding: 3.5px;
+  border: 0px;
+  background: #ff8300;
+  border-radius: 0px 6px 6px 0px;
+  height: 30px;
+}
+
+.contHead .contHead-buscar .btn-buscar img {
+  padding: 2px;
+  height: 28px;
+  width: auto;
+  position: relative;
+  top: -2.3px;
+}
+
+.contHead .contHead-carUsu .contHead__carrito--carUsu, .contHead .contHead-carUsu .contHead__usuario--carUsu {
+  margin-right: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8300), to(#8d4d09));
+  background-image: linear-gradient(to bottom, #ff8300, #8d4d09);
+  border-radius: 100%;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+/* variables de colores */
+/* variable de tipografia */
+/*Menu home*/
+.imgGs__menu {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff9100), color-stop(#c4450b), to(#ff9100));
+  background-image: linear-gradient(90deg, #ff9100, #c4450b, #ff9100);
+  border-radius: 100%;
+  background-repeat: repeat;
+  -webkit-animation: gs 5s infinite;
+          animation: gs 5s infinite;
+  background-size: 450%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes gs {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gs {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imgGs__menu:hover {
+  -webkit-box-shadow: 0px 0px 30px #ff9100;
+          box-shadow: 0px 0px 30px #ff9100;
+}
+
+/*Menu playstation*/
+.imgPs__menu {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2222e2), color-stop(#3c0da8), to(#2222e2));
+  background-image: linear-gradient(90deg, #2222e2, #3c0da8, #2222e2);
+  border-radius: 100%;
+  background-repeat: repeat;
+  -webkit-animation: ps 5s infinite;
+          animation: ps 5s infinite;
+  background-size: 450%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes ps {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes ps {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imgPs__menu:hover {
+  -webkit-box-shadow: 0px 0px 30px #2222e2;
+          box-shadow: 0px 0px 30px #2222e2;
+}
+
+/*Menu xbox*/
+.imgXbox__menu {
+  background-image: -webkit-gradient(linear, left top, right top, from(#0dc70d), color-stop(#0c8b21), to(#0dc70d));
+  background-image: linear-gradient(90deg, #0dc70d, #0c8b21, #0dc70d);
+  border-radius: 100%;
+  background-repeat: repeat;
+  -webkit-animation: xbox 5s infinite;
+          animation: xbox 5s infinite;
+  background-size: 450%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes xbox {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes xbox {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imgXbox__menu:hover {
+  -webkit-box-shadow: 0px 0px 30px #0dc70d;
+          box-shadow: 0px 0px 30px #0dc70d;
+}
+
+/*Menu pc*/
+.imgPc__menu {
+  background-image: -webkit-gradient(linear, left top, right top, from(#8d0fe7), color-stop(#5e0e97), to(#8d0fe7));
+  background-image: linear-gradient(90deg, #8d0fe7, #5e0e97, #8d0fe7);
+  border-radius: 100%;
+  background-repeat: repeat;
+  -webkit-animation: pc 5s infinite;
+          animation: pc 5s infinite;
+  background-size: 450%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes pc {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pc {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imgPc__menu:hover {
+  -webkit-box-shadow: 0px 0px 30px #8d0fe7;
+          box-shadow: 0px 0px 30px #8d0fe7;
+}
+
+/*Menu nintendo*/
+.imgNintendo__menu {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ee0909), color-stop(#ac0d0d), to(#ee0909));
+  background-image: linear-gradient(90deg, #ee0909, #ac0d0d, #ee0909);
+  border-radius: 100%;
+  background-repeat: repeat;
+  -webkit-animation: nintendo 5s infinite;
+          animation: nintendo 5s infinite;
+  background-size: 450%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes nintendo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes nintendo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.imgNintendo__menu:hover {
+  -webkit-box-shadow: 0px 0px 30px #ee0909;
+          box-shadow: 0px 0px 30px #ee0909;
+}
+
+/*Tamanos de las imagenes*/
+.imgGs__menu, .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu {
+  width: 90px;
+  height: 90px;
+}
+
+/* modificacion de las letras del nav principal */
+.h5Home, .h5Ps, .h5Xbox, .h5Pc, .h5Nintendo {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+/* carrusel principal novedades */
+.carousel--novedades {
+  width: 85%;
+  border-radius: 20px;
+}
+
+.carousel--novedades img {
+  border-radius: 18px;
+  border: 10px solid #ff8300;
+}
+
+.boton {
+  background-color: #ff8300;
+  border-radius: 100%;
+  height: 40px;
+  width: 38px;
+}
+
+/* submenu de playstation */
+.subps__menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2222e2), to(#0f0f5c));
+  background-image: linear-gradient(to bottom, #2222e2, #0f0f5c);
+  border-radius: 10px;
+}
+
+.subps__menu .dropdown-item {
+  font-weight: bolder;
+  text-align: center;
+  color: lightcyan;
+  font-size: 22px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Itim', cursive;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.subps__menu .dropdown-item:hover {
+  background-color: #131383;
+}
+
+/* submenu de xbox */
+.subxbox__menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0dc70d), to(#0c5a0c));
+  background-image: linear-gradient(to bottom, #0dc70d, #0c5a0c);
+  border-radius: 10px;
+}
+
+.subxbox__menu .dropdown-item {
+  font-weight: bolder;
+  text-align: center;
+  color: lightcyan;
+  font-size: 22px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Itim', cursive;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.subxbox__menu .dropdown-item:hover {
+  background-color: #0c5a0c;
+}
+
+/* submenu de pc */
+.subpc__menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8d0fe7), to(#3d0e5f));
+  background-image: linear-gradient(to bottom, #8d0fe7, #3d0e5f);
+  border-radius: 10px;
+}
+
+.subpc__menu .dropdown-item {
+  font-weight: bolder;
+  text-align: center;
+  color: lightcyan;
+  font-size: 22px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Itim', cursive;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.subpc__menu .dropdown-item:hover {
+  background-color: #3d0e5f;
+}
+
+/* submenu de nintendo */
+.subnintendo__menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ee0909), to(#740f0f));
+  background-image: linear-gradient(to bottom, #ee0909, #740f0f);
+  border-radius: 10px;
+}
+
+.subnintendo__menu .dropdown-item {
+  font-weight: bolder;
+  text-align: center;
+  color: lightcyan;
+  font-size: 22px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Itim', cursive;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.subnintendo__menu .dropdown-item:hover {
+  background-color: #740f0f;
+}
+
+.metodopago1--contenedor {
+  background-color: rgba(121, 117, 117, 0.493);
+  border-top: 4px ridge #504646;
+  border-bottom: 4px groove #504646;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.metodopago1--contenedor .txtPago {
+  color: black;
+  font-weight: bold;
+}
+
+.metodopago1--contenedor .metodopago1__tarjeta--contenedor img {
+  -webkit-animation: tarjeta 5s infinite 0s;
+          animation: tarjeta 5s infinite 0s;
+}
+
+.metodopago1--contenedor .metodopago1__escudo--contenedor img {
+  -webkit-animation: escudo 8s infinite 0s;
+          animation: escudo 8s infinite 0s;
+}
+
+.metodopago1--contenedor .metodopago1__auto--contenedor img {
+  -webkit-animation: car 9s infinite 0s;
+          animation: car 9s infinite 0s;
+}
+
+/* animacion de tarjeta */
+@-webkit-keyframes tarjeta {
+  0% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+  50% {
+    -webkit-transform: translate(-10px);
+            transform: translate(-10px);
+  }
+  100% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+}
+@keyframes tarjeta {
+  0% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+  50% {
+    -webkit-transform: translate(-10px);
+            transform: translate(-10px);
+  }
+  100% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+}
+
+/* animacion de escudo */
+@-webkit-keyframes escudo {
+  0% {
+    -webkit-transform: translate(30px) perspective(150px) rotateY(45deg);
+            transform: translate(30px) perspective(150px) rotateY(45deg);
+  }
+  50% {
+    -webkit-transform: translate(-30px) perspective(150px) rotateY(-45deg);
+            transform: translate(-30px) perspective(150px) rotateY(-45deg);
+  }
+  100% {
+    -webkit-transform: translate(30px) perspective(150px) rotateY(45deg);
+            transform: translate(30px) perspective(150px) rotateY(45deg);
+  }
+}
+@keyframes escudo {
+  0% {
+    -webkit-transform: translate(30px) perspective(150px) rotateY(45deg);
+            transform: translate(30px) perspective(150px) rotateY(45deg);
+  }
+  50% {
+    -webkit-transform: translate(-30px) perspective(150px) rotateY(-45deg);
+            transform: translate(-30px) perspective(150px) rotateY(-45deg);
+  }
+  100% {
+    -webkit-transform: translate(30px) perspective(150px) rotateY(45deg);
+            transform: translate(30px) perspective(150px) rotateY(45deg);
+  }
+}
+
+/* animacion de auto */
+@-webkit-keyframes car {
+  0% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+  25% {
+    -webkit-transform: translate(-20px);
+            transform: translate(-20px);
+  }
+  50% {
+    -webkit-transform: translate(-20px) perspective(200px) rotateY(-180deg);
+            transform: translate(-20px) perspective(200px) rotateY(-180deg);
+  }
+  75% {
+    -webkit-transform: translate(65px) perspective(200px) rotateY(-180deg);
+            transform: translate(65px) perspective(200px) rotateY(-180deg);
+  }
+  100% {
+    -webkit-transform: translate(65px) perspective(200px) rotateY(0deg);
+            transform: translate(65px) perspective(200px) rotateY(0deg);
+  }
+}
+@keyframes car {
+  0% {
+    -webkit-transform: translate(65px);
+            transform: translate(65px);
+  }
+  25% {
+    -webkit-transform: translate(-20px);
+            transform: translate(-20px);
+  }
+  50% {
+    -webkit-transform: translate(-20px) perspective(200px) rotateY(-180deg);
+            transform: translate(-20px) perspective(200px) rotateY(-180deg);
+  }
+  75% {
+    -webkit-transform: translate(65px) perspective(200px) rotateY(-180deg);
+            transform: translate(65px) perspective(200px) rotateY(-180deg);
+  }
+  100% {
+    -webkit-transform: translate(65px) perspective(200px) rotateY(0deg);
+            transform: translate(65px) perspective(200px) rotateY(0deg);
+  }
+}
+
+.footer {
+  height: 400px;
+  background-color: rgba(255, 166, 0, 0.651);
+}
+
+.seccion__arriba--footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  padding: 25px;
+}
+
+.seccion__arriba--footer .h5--titulo {
+  color: black;
+  padding: 0px 15px;
+}
+
+.seccion__arriba--footer a {
+  text-decoration: none;
+  width: 90%;
+  padding: 3px 20px;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.seccion__arriba--footer a:hover {
+  color: blue;
+  -webkit-transform: translate(5px);
+          transform: translate(5px);
+}
+
+.linea--footer {
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+.seccion__abajo--footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "social . logoFoot";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img--logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: logoFoot;
+}
+
+.img--logo img {
+  padding: 6px;
+  width: 100px;
+  height: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#252121));
+  background-image: linear-gradient(to bottom, black, #252121);
+  border-radius: 100%;
+  border: 1px solid white;
+  position: relative;
+  left: 30%;
+}
+
+/* mail para recibir novedades */
+.mail-footer {
+  color: black;
+}
+
+.mail-footer .input-mail {
+  width: 80%;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.mail-footer .mail__btn--footer {
+  color: white;
+  width: 20%;
+  border-radius: 0px 40px 40px 0px;
+  border: 1px solid white;
+}
+
+.seccion--rsociales {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: social;
+  padding: 22px;
+  width: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: 20% 80%;
+      grid-template-rows: 20% 80%;
+      grid-template-areas: "rsocial rsocial rsocial rsocial rsocial ." "face insta twit discor . .";
+}
+
+.seccion--rsociales h5 {
+  color: black;
+}
+
+.seccion--rsociales img {
+  width: 50px;
+  height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.seccion--rsociales img:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+.rSocial--titulo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-area: rsocial;
+}
+
+.face {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: face;
+  padding: 20px 0px;
+}
+
+.insta {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: insta;
+  padding: 20px 0px;
+}
+
+.twit {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: twit;
+  padding: 20px 0px;
+}
+
+.discor {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: discor;
+  padding: 20px 0px;
+}
+
+.subti--playstation {
+  color: blue;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+  -webkit-text-stroke: 0.5px white;
+  padding-bottom: 15px;
+}
+
+.card--ps {
+  background-image: linear-gradient(30deg, #1111e4, #050538, #1111e4);
+  background-repeat: repeat;
+  -webkit-animation: cardPs 4s infinite;
+          animation: cardPs 4s infinite;
+  background-size: 500%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* animacion de fondo de de productos */
+@-webkit-keyframes cardPs {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cardPs {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.subti--xbox {
+  color: #0ee906;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+  -webkit-text-stroke: 0.5px white;
+  padding-bottom: 15px;
+  letter-spacing: 1rem;
+}
+
+.card--xbox {
+  background-image: linear-gradient(30deg, #0dc70d, #074712, #0dc70d);
+  background-repeat: repeat;
+  -webkit-animation: cardXbox 4s infinite;
+          animation: cardXbox 4s infinite;
+  background-size: 500%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* animacion de fondo de de productos */
+@-webkit-keyframes cardXbox {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cardXbox {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.subti--pc {
+  color: indigo;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+  -webkit-text-stroke: 0.5px white;
+  padding-bottom: 15px;
+  letter-spacing: 1rem;
+}
+
+.card--pc {
+  background-image: linear-gradient(30deg, #8d0fe7, #27053f, #8d0fe7);
+  background-repeat: repeat;
+  -webkit-animation: cardPc 4s infinite;
+          animation: cardPc 4s infinite;
+  background-size: 500%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* animacion de fondo de de productos */
+@-webkit-keyframes cardPc {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cardPc {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.subti--nintendo {
+  color: red;
+  text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+  -webkit-text-stroke: 0.5px white;
+  padding-bottom: 15px;
+}
+
+.card--nintendo {
+  background-image: linear-gradient(30deg, #ee0909, #610808, #ee0909);
+  background-repeat: repeat;
+  -webkit-animation: cardnintendo 4s infinite;
+          animation: cardnintendo 4s infinite;
+  background-size: 500%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* animacion de fondo de productos nintendo */
+@-webkit-keyframes cardnintendo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes cardnintendo {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card-img-top {
+  width: 100%;
+  height: 210px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.card {
+  margin: 2px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.card-body {
+  padding: 4px;
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+}
+
+.card-precio {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid #ff9100;
+  width: 100%;
+  background-color: #ff9100;
+  font-family: "Chakra Petch", sans-serif;
+  padding: 2px;
+  margin-bottom: 0px;
+}
+
+.btn:hover {
+  border: 2px solid #ff9100;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff9100), color-stop(#c4450b), to(#ff9100));
+  background-image: linear-gradient(90deg, #ff9100, #c4450b, #ff9100);
+  background-repeat: repeat;
+  -webkit-animation: btnCompra 4s infinite;
+          animation: btnCompra 4s infinite;
+  background-size: 300%;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* animacion de botones de compra */
+@-webkit-keyframes btnCompra {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes btnCompra {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 426px) and (min-width: 320px) {
+  /* todo del header */
+  .contHead {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: 60% 40%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas: "gamestation gamestation" "buscador carUsu";
+  }
+  .contHead .contHead-logTituPrincipal {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: gamestation;
+  }
+  .contHead .contHead-logTituPrincipal .logo-head {
+    width: 45px;
+    height: 45px;
+  }
+  .contHead .contHead-logTituPrincipal h1 .gstation__titulo {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .contHead .contHead-buscar {
+    margin-left: 10px;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: buscador;
+  }
+  .contHead .contHead-carUsu {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: carUsu;
+  }
+  .contHead .contHead-carUsu img {
+    width: 40px;
+    height: 40px;
+  }
+  /* navegador */
+  .head .navbar {
+    padding: 5px 0px 15px;
+  }
+  /* Tamanos de las imagenes */
+  .imgGs__menu, .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu {
+    width: 50px;
+    height: 50px;
+  }
+  /* modificacion de las letras del nav principal */
+  .h5Home, .h5Ps, .h5Xbox, .h5Pc, .h5Nintendo {
+    position: absolute;
+    top: 22px;
+    left: 85px;
+  }
+  /* carrusel principal novedades */
+  .carousel--novedades {
+    width: 85%;
+    border-radius: 18px;
+  }
+  .carousel--novedades img {
+    border-radius: 16px;
+    border: 5px solid #ff8300;
+  }
+  /* botones dentro del carrusel */
+  .boton {
+    height: 32px;
+    width: 30px;
+  }
+  /* horarios de atencion */
+  .horario--contenedor .horario__title--contenedor, .horario--contenedor .horario__dias--contenedor {
+    font-size: 12px;
+  }
+  .horario--contenedor .horario__dias--contenedor p {
+    margin: 1px;
+  }
+  /* subtitulos de todas los html de productos */
+  .subti--playstation, .subti--xbox, .subti--pc, .subti--nintendo {
+    font-size: 26px;
+    padding-bottom: 1px;
+  }
+  /* subtitulos de las secciones dentro de los html de los productos */
+  main .productos {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 6px;
+    padding-top: 13px;
+  }
+  /* metodo de pago */
+  .metodopago1--contenedor {
+    height: 150px;
+    /* animacion de tarjeta */
+    /* animacion de escudo */
+    /* animacion de auto */
+  }
+  .metodopago1--contenedor img {
+    width: 60px;
+    height: 60px;
+  }
+  .metodopago1--contenedor .txtPago {
+    font-size: 10px;
+  }
+  @-webkit-keyframes tarjeta {
+    0% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+  }
+  @keyframes tarjeta {
+    0% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+  }
+  @-webkit-keyframes escudo {
+    0% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+    50% {
+      -webkit-transform: translate(-2px) perspective(150px) rotateY(-45deg);
+              transform: translate(-2px) perspective(150px) rotateY(-45deg);
+    }
+    100% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+  }
+  @keyframes escudo {
+    0% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+    50% {
+      -webkit-transform: translate(-2px) perspective(150px) rotateY(-45deg);
+              transform: translate(-2px) perspective(150px) rotateY(-45deg);
+    }
+    100% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+  }
+  @-webkit-keyframes car {
+    0% {
+      -webkit-transform: translate(56px);
+              transform: translate(56px);
+    }
+    25% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    50% {
+      -webkit-transform: translate(0px) perspective(200px) rotateY(-180deg);
+              transform: translate(0px) perspective(200px) rotateY(-180deg);
+    }
+    75% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(-180deg);
+              transform: translate(56px) perspective(200px) rotateY(-180deg);
+    }
+    100% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(0deg);
+              transform: translate(56px) perspective(200px) rotateY(0deg);
+    }
+  }
+  @keyframes car {
+    0% {
+      -webkit-transform: translate(56px);
+              transform: translate(56px);
+    }
+    25% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    50% {
+      -webkit-transform: translate(0px) perspective(200px) rotateY(-180deg);
+              transform: translate(0px) perspective(200px) rotateY(-180deg);
+    }
+    75% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(-180deg);
+              transform: translate(56px) perspective(200px) rotateY(-180deg);
+    }
+    100% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(0deg);
+              transform: translate(56px) perspective(200px) rotateY(0deg);
+    }
+  }
+  /* cards */
+  .card-img-top {
+    width: 100%;
+    height: 120px;
+    padding: 8px;
+    border-radius: 14px;
+  }
+  .card {
+    margin: 1px;
+    border-radius: 8px;
+  }
+  .card-body {
+    padding: 4px;
+  }
+  .card-body .card-title {
+    font-size: 13px;
+  }
+  .card-body .card-precio {
+    font-size: 14px;
+  }
+  .card-body .btn {
+    padding: 1px;
+  }
+  /* footer */
+  .footer {
+    height: 650px;
+  }
+  .seccion__arriba--footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "fComprar fNproductos" "fSoporte fComunidad" "fAyuda fAyuda";
+    padding: 15px;
+  }
+  .seccion__arriba--footer .h5--titulo {
+    padding: 0px 15px;
+    font-size: 17px;
+  }
+  .seccion__arriba--footer a {
+    font-size: 13px;
+    width: 90%;
+    padding: 1px 20px;
+  }
+  .seccion__arriba--footer .seccion--comprar {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: fComprar;
+  }
+  .seccion__arriba--footer .seccion--ayuda {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: fAyuda;
+  }
+  .seccion__arriba--footer .seccion--comunidad {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: fComunidad;
+  }
+  .seccion__arriba--footer .seccion--nproductos {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: fNproductos;
+  }
+  .seccion__arriba--footer .seccion--soporte {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: fSoporte;
+  }
+  .seccion__abajo--footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: 60% 40%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas: "social social" "buscador logoFoot";
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mail-footer {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: buscador;
+    margin-left: 15px;
+  }
+  .img--logo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: logoFoot;
+    padding: 0px 0px;
+  }
+  .img--logo img {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    left: 13%;
+  }
+  .seccion--rsociales {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: social;
+    padding: 20px 20px 8px;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 15% 85%;
+        grid-template-rows: 15% 85%;
+        grid-template-areas: "rsocial rsocial rsocial rsocial" "face insta twit discor";
+  }
+  .seccion--rsociales h5 {
+    padding: 0px 28px;
+    font-size: 17px;
+  }
+  .seccion--rsociales img {
+    width: 40px;
+    height: 40px;
+  }
+  .rSocial--titulo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-area: rsocial;
+  }
+  .face {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: face;
+    padding: 20px 22px;
+  }
+  .insta {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: insta;
+    padding: 20px 22px;
+  }
+  .twit {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: twit;
+    padding: 20px 22px;
+  }
+  .discor {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: discor;
+    padding: 20px 22px;
+  }
+}
+
+.formulario {
+  background-color: #00000096;
+  height: 700px;
+  width: 45%;
+  padding: 15px;
+  border-radius: 25px;
+  -webkit-box-shadow: 4px 4px 30px #838282, -4px -4px 30px #e6e2e2;
+          box-shadow: 4px 4px 30px #838282, -4px -4px 30px #e6e2e2;
+  position: relative;
+  left: 28%;
+  /* datos personales */
+  /* datos compra*/
+  /* condiciones y desea recibir novedades*/
+  /* botones del formulario de compra */
+  /* boton comprar */
+  /* boton cancelar*/
+  /* boton volver */
+}
+
+.formulario .form-title, .formulario .datos .datos-title {
+  color: #ff9100;
+  text-align: center;
+  border-bottom: 5px solid #ff9100;
+}
+
+.formulario .datos {
+  margin-top: 30px;
+}
+
+.formulario .form-label, .formulario .label-nombre {
+  color: #ff9100;
+  font-size: 17px;
+}
+
+.formulario .nombre .input-nombre {
+  color: white;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-bottom: 2px solid #ff9100;
+  border-radius: 0%;
+}
+
+.formulario .telefono .input-telefono {
+  color: white;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-bottom: 2px solid #ff9100;
+  border-radius: 0%;
+}
+
+.formulario .mail {
+  padding-bottom: 25px;
+}
+
+.formulario .mail .input-mail {
+  color: white;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-bottom: 2px solid #ff9100;
+  border-radius: 0%;
+}
+
+.formulario .pago {
+  padding: 5px;
+}
+
+.formulario .pago label {
+  font-size: 15px;
+}
+
+.formulario .pago .input-direccion, .formulario .pago .input-casa, .formulario .pago .input-cp {
+  color: white;
+  width: 90%;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  border-bottom: 2px solid #ff9100;
+  border-radius: 0%;
+}
+
+.formulario .pago .input-direccion .input-direccion:scope, .formulario .pago .input-casa .input-direccion:scope, .formulario .pago .input-cp .input-direccion:scope, .formulario .pago .input-direccion .input-casa:scope, .formulario .pago .input-casa .input-casa:scope, .formulario .pago .input-cp .input-casa:scope, .formulario .pago .input-direccion .input-cp:scope, .formulario .pago .input-casa .input-cp:scope, .formulario .pago .input-cp .input-cp:scope {
+  -webkit-box-shadow: 0px;
+          box-shadow: 0px;
+}
+
+.formulario .pago .envio, .formulario .pago .metodPago {
+  padding: 15px 0px 30px;
+}
+
+.formulario .pago .envio .form__obtProducto--label, .formulario .pago .metodPago .form__obtProducto--label {
+  color: #ff9100;
+}
+
+.formulario .pago .envio select, .formulario .pago .metodPago select {
+  border-radius: 8px;
+  border: 2px solid #ff9100;
+}
+
+.formulario .pago .metodPago .form__pago--label {
+  color: #ff9100;
+}
+
+.formulario .pago .metodPago select {
+  border-radius: 8px;
+  border: 2px solid #ff9100;
+}
+
+.formulario .termYcond {
+  padding-bottom: 25px;
+}
+
+.formulario .termYcond .form__cond--label {
+  color: #ff9100;
+  text-decoration: underline;
+}
+
+.formulario .btn-comprar {
+  border-radius: 13px;
+  color: #4b2900;
+  padding: 8px;
+  background-color: #ff9100;
+  border-bottom: 4px groove #1e8b1e;
+  border-right: 4px groove #1e8b1e;
+  border-top: 0px;
+  border-left: 0px;
+  font-weight: bold;
+}
+
+.formulario .btn-comprar:hover, .formulario .btn-cancelar:hover, .formulario .btn-volver:hover {
+  color: #0b250b;
+  background-color: #1e8b1e;
+  border-bottom: 3px groove #ff9100;
+  border-right: 3px groove #ff9100;
+}
+
+.formulario .btn-cancelar {
+  border-radius: 13px;
+  color: #4b2900;
+  padding: 8px;
+  background-color: #ff9100;
+  border-bottom: 4px groove #dd0a0a;
+  border-right: 4px groove #dd0a0a;
+  border-top: 0px;
+  border-left: 0px;
+  font-weight: bold;
+}
+
+.formulario .btn-cancelar:hover {
+  color: #640808;
+  background-color: #dd0a0a;
+}
+
+.formulario .btn-volver {
+  border-radius: 13px;
+  color: #4b2900;
+  padding: 8px;
+  background-color: #ff9100;
+  border-bottom: 4px groove #080896;
+  border-right: 4px groove #080896;
+  border-top: 0px;
+  border-left: 0px;
+}
+
+.formulario .btn-volver a {
+  text-decoration: none;
+  color: #4b2900;
+  font-weight: bold;
+}
+
+.formulario .btn-volver:hover {
+  background-color: #080896;
+}
+
+.formulario .btn-volver:hover a {
+  color: #050536;
+}
+
+@media (max-width: 426px) and (min-width: 320px) {
+  .formulario {
+    width: 90%;
+    height: 1000px;
+    left: 5%;
+  }
+  .formulario .info, .formulario .info-envio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formulario .envio, .formulario .pago .metodPago {
+    padding: 0px 0px 15px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* color del cuerpo de la pagina */
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(#0a1347), color-stop(90%, #8a500d));
+  background-image: linear-gradient(to left, #0a1347, #8a500d 90%);
+}
+
+/* espacios del navegador */
+.navbar {
+  padding: 20px 0px 40px 0px;
+}
+
+/* seccion de titulos en los html de los productos */
+.productos {
+  color: white;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+
+/* linea de separacion de horarios, todos los html */
+.linea--horarios {
+  background-color: #ff840075;
+}
+
+/* horarios de atencion */
+.horario .horario--title, .horario .horario--dias {
+  color: white;
+  text-align: center;
+}
+
+.horario .horario--dias p {
+  margin: 2px;
+}
+/*# sourceMappingURL=estilos.css.map */

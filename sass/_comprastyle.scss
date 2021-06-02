@@ -1,0 +1,192 @@
+$colorNaranja: #ff9100;
+$colorbtnLetra:#4b2900;
+$heightInput: 35px;
+
+.formulario{
+    background-color: #00000096;
+    height: 700px;
+    width: 45%;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow:  4px 4px 30px #838282,
+                -4px -4px 30px #e6e2e2;
+    position: relative;
+    left: 28%;
+    .form-title{
+        color: $colorNaranja;
+        text-align: center;
+        border-bottom: 5px solid $colorNaranja;
+    }
+
+
+    .datos{   
+        margin-top: 30px;
+        .datos-title{
+            @extend .form-title;
+        }
+    }
+
+    .form-label{
+        color: $colorNaranja;
+        font-size: 17px;
+    }
+
+    /* datos personales */
+    .label-nombre{
+        @extend .form-label;
+    }
+    .nombre{
+        .input-nombre{
+            color: white;
+            height: $heightInput;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            border-bottom: 2px solid $colorNaranja;
+            border-radius: 0%;
+        }
+    }
+
+    .telefono{
+        .input-telefono{
+            color: white;
+            height: $heightInput;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            border-bottom: 2px solid $colorNaranja;
+            border-radius: 0%;
+        }
+    }
+
+    .mail{
+        padding-bottom: 25px;
+        .input-mail{
+            color: white;
+            height: $heightInput;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            border-bottom: 2px solid $colorNaranja;
+            border-radius: 0%;
+        }
+    }
+
+    /* datos compra*/
+    .pago{
+        padding: 5px;
+        label{
+            font-size: 15px;
+        }
+        .input-direccion{
+            color: white;
+            width: 90%;
+            height: $heightInput;
+            background-color: rgba(255, 255, 255, 0);
+            border: 0px;
+            border-bottom: 2px solid $colorNaranja;
+            border-radius: 0%;
+            .input-direccion:scope{
+                box-shadow: 0px;
+            }
+        }
+        .input-casa{
+            @extend .input-direccion;
+        }
+
+        .input-cp{
+            @extend .input-direccion;
+        }
+
+        .envio{
+            padding: 15px 0px 30px;
+            .form__obtProducto--label{
+                color: $colorNaranja;
+            }
+            select{
+                border-radius: 8px;
+                border: 2px solid $colorNaranja;
+            }
+        }
+
+        .metodPago{
+            @extend .envio;
+            .form__pago--label{
+                color: $colorNaranja;
+            }
+            select{
+                border-radius: 8px;
+                border: 2px solid $colorNaranja;
+            }
+        }
+    }
+
+    /* condiciones y desea recibir novedades*/
+    .termYcond{
+        padding-bottom: 25px;
+        .form__cond--label{
+            color: $colorNaranja;
+            text-decoration: underline;
+        }
+    }   
+
+    /* botones del formulario de compra */
+    @mixin btns($bordeRadius, $letraColor , $btnPadding, $btnFondo) {
+        border-radius: $bordeRadius;
+        color: $letraColor;
+        padding: $btnPadding;
+        background-color: $btnFondo;
+    }
+
+    /* boton comprar */
+    .btn-comprar{
+        @include btns(13px, $colorbtnLetra, 8px, $colorNaranja);
+        border-bottom: 4px groove rgb(30, 139, 30);
+        border-right: 4px groove rgb(30, 139, 30);
+        border-top: 0px;
+        border-left: 0px;
+        font-weight: bold;
+    }
+
+    .btn-comprar:hover{
+        color: rgb(11, 37, 11);
+        background-color: rgb(30, 139, 30);
+        border-bottom: 3px groove $colorNaranja;
+        border-right: 3px groove $colorNaranja;
+    }
+
+    /* boton cancelar*/
+    .btn-cancelar{
+        @include btns(13px, $colorbtnLetra, 8px, $colorNaranja);
+        border-bottom: 4px groove rgb(221, 10, 10);
+        border-right: 4px groove rgb(221, 10, 10);
+        border-top: 0px;
+        border-left: 0px;
+        font-weight: bold;
+    }
+
+    .btn-cancelar:hover{
+        @extend .btn-comprar:hover;
+        color: rgb(100, 8, 8);
+        background-color: rgb(221, 10, 10);
+    }
+
+    /* boton volver */
+    .btn-volver{
+        @include btns(13px, $colorbtnLetra, 8px, $colorNaranja);
+        border-bottom: 4px groove rgb(8, 8, 150);
+        border-right: 4px groove rgb(8, 8, 150);
+        border-top: 0px;
+        border-left: 0px;
+        a{
+            text-decoration: none;
+            color: $colorbtnLetra;
+            font-weight: bold;
+        }
+    }
+
+    .btn-volver:hover{
+        @extend .btn-comprar:hover;
+        background-color: rgb(8, 8, 150);
+        a{
+            color: rgb(5, 5, 54);
+        }
+    }
+}

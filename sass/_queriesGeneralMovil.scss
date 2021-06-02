@@ -1,0 +1,274 @@
+@media (max-width: 426px) and (min-width: 320px){
+    /* todo del header */
+    .contHead{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 60% 40%;
+        grid-template-areas: "gamestation gamestation"
+                             "buscador carUsu";
+        .contHead-logTituPrincipal{
+            grid-area: gamestation;
+            .logo-head{
+                width: 45px;
+                height: 45px;
+            }
+            h1{
+                .gstation__titulo{
+                    font-size: 25px;
+                    letter-spacing: 10px;
+                }
+            }
+        }    
+        .contHead-buscar{
+            margin-left: 10px;
+            grid-area: buscador;
+        }
+
+        .contHead-carUsu{
+            grid-area: carUsu;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    
+    /* navegador */
+    .head{
+        .navbar{
+            padding: 5px 0px 15px;
+        }
+    }
+
+    /* Tamanos de las imagenes */
+    .imgGs__menu, .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu{
+    width: 50px;
+    height: 50px;
+    }
+
+    /* modificacion de las letras del nav principal */
+    .h5Home, .h5Ps, .h5Xbox, .h5Pc, .h5Nintendo{
+        position: absolute;
+        top: 22px;
+        left: 85px;
+    }
+    
+    /* carrusel principal novedades */
+    .carousel--novedades{
+        width: 85%;
+        border-radius: 18px;  
+        img{
+            border-radius: 16px;
+            border: 5px solid #ff8300;
+        }
+    }
+        /* botones dentro del carrusel */
+    .boton{
+        height: 32px;
+        width: 30px;
+    }
+
+    /* horarios de atencion */
+    .horario--contenedor{
+        .horario__title--contenedor, .horario__dias--contenedor{
+            font-size: 12px;
+        }
+        .horario__dias--contenedor{
+            p{
+                margin: 1px;
+            }
+        }
+    }
+
+    /* subtitulos de todas los html de productos */
+    .subti--playstation, .subti--xbox, .subti--pc, .subti--nintendo{
+        font-size: 26px;
+        padding-bottom: 1px;
+    }
+
+    /* subtitulos de las secciones dentro de los html de los productos */
+    main{
+        .productos{
+            font-size: 25px;
+            font-weight: bolder;
+            padding-left: 6px;
+            padding-top: 13px;
+        }
+    }
+
+    /* metodo de pago */
+    .metodopago1--contenedor{
+        height: 150px;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        .txtPago{
+            font-size: 10px;
+        }
+        /* animacion de tarjeta */
+        @keyframes tarjeta{
+            0%{transform: translate(65px);}
+            50%{transform: translate(-0px);}
+            100%{transform: translate(65px);}
+        }
+
+        /* animacion de escudo */
+        @keyframes escudo{
+            0%{transform: translate(25px) perspective(150px) rotateY(45deg);}
+            50%{transform: translate(-2px) perspective(150px) rotateY(-45deg);}
+            100%{transform: translate(25px) perspective(150px) rotateY(45deg);}
+        }
+
+        /* animacion de auto */
+        @keyframes car{
+            0%{transform: translate(56px);}
+            25%{transform: translate(0px);}
+            50%{transform: translate(0px) perspective(200px) rotateY(-180deg);}
+            75%{transform: translate(56px) perspective(200px) rotateY(-180deg);}
+            100%{transform: translate(56px) perspective(200px) rotateY(0deg);}
+        }
+    }
+
+    /* cards */
+    .card-img-top{
+        width: 100%;
+        height: 120px;
+        padding: 8px;
+        border-radius: 14px;
+    }
+    
+    .card{
+        margin: 1px;
+        border-radius: 8px;
+    }
+
+    .card-body{
+        padding: 4px;
+        .card-title{
+            font-size: 13px;
+        }
+        
+        .card-precio{
+            font-size: 14px;
+        }
+
+        .btn{
+            padding: 1px;
+        }
+    }
+
+    /* footer */
+    .footer{
+        height: 650px;
+    }
+    .seccion__arriba--footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "fComprar fNproductos"
+                             "fSoporte fComunidad"
+                             "fAyuda fAyuda";
+        padding: 15px;
+        .h5--titulo{
+            padding: 0px 15px;
+            font-size: 17px;
+        }
+        a{
+            font-size: 13px;
+            width: 90%;
+            padding: 1px 20px;
+        }
+
+        .seccion--comprar{
+            grid-area: fComprar;
+        }
+        
+        .seccion--ayuda{
+            grid-area: fAyuda;
+        }
+        
+        .seccion--comunidad{
+            grid-area: fComunidad;
+        }
+        
+        .seccion--nproductos{
+            grid-area: fNproductos;
+        }
+        
+        .seccion--soporte{
+            grid-area: fSoporte;
+        }
+
+    }
+
+    .seccion__abajo--footer{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 60% 40%;
+        grid-template-areas: "social social"
+                             "buscador logoFoot";
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mail-footer{
+        grid-area: buscador;
+        margin-left: 15px;
+    }
+    
+    .img--logo{
+        grid-area: logoFoot;
+        padding: 0px 0px;
+        img{
+            padding: 10px;
+            width: 70px;
+            height: 70px;
+            left: 13%;
+        }
+    }
+    
+    .seccion--rsociales{
+        grid-area: social;
+        padding: 20px 20px 8px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 15% 85%;
+        grid-template-areas: "rsocial rsocial rsocial rsocial"
+                             "face insta twit discor";
+        h5{
+            padding: 0px 28px;
+            font-size: 17px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        } 
+    }
+    
+    .rSocial--titulo{
+        grid-area: rsocial;
+    }
+    
+    .face{
+        grid-area: face;
+        padding: 20px 22px;
+    }
+    
+    .insta{
+        grid-area: insta;
+        padding: 20px 22px;
+    }
+    
+    .twit{
+        grid-area: twit;
+        padding: 20px 22px;
+    }
+    
+    .discor{
+        grid-area: discor;
+        padding: 20px 22px;
+    } 
+}
+

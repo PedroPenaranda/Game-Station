@@ -1,0 +1,77 @@
+/* submenu de playstation */
+.subps__menu{
+    background-image: linear-gradient(to bottom, rgb(34, 34, 226),rgb(15, 15, 92));
+    border-radius: 10px;
+    .dropdown-item{
+        font-weight: bolder;
+        text-align: center;
+        color: lightcyan;
+        font-size: 22px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .dropdown-item:hover{
+        background-color: rgb(19, 19, 131);
+    }
+}
+
+
+/* submenu de xbox */
+.subxbox__menu{
+    background-image: linear-gradient(to bottom, rgb(13, 199, 13), rgb(12, 90, 12));
+    border-radius: 10px;
+    .dropdown-item{
+        font-weight: bolder;
+        text-align: center;
+        color: lightcyan;
+        font-size: 22px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .dropdown-item:hover{
+        background-color: rgb(12, 90, 12);
+    }
+}
+
+/* submenu de pc */
+.subpc__menu{
+    background-image: linear-gradient(to bottom, rgb(141, 15, 231), rgb(61, 14, 95));
+    border-radius: 10px;
+    .dropdown-item{
+        font-weight: bolder;
+        text-align: center;
+        color: lightcyan;
+        font-size: 22px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .dropdown-item:hover{
+        background-color: rgb(61, 14, 95);
+    }
+}
+
+/* submenu de nintendo */
+.subnintendo__menu{
+    background-image: linear-gradient(to bottom, rgb(238, 9, 9), rgb(116, 15, 15));
+    border-radius: 10px;
+    .dropdown-item{
+        font-weight: bolder;
+        text-align: center;
+        color: lightcyan;
+        font-size: 22px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Itim', cursive;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .dropdown-item:hover{
+        background-color: rgb(116, 15, 15);
+    }
+}
+

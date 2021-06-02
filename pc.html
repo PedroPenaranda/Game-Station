@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Itim&display=swap" rel="stylesheet">
+
+
+    <!-- boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="sass/estilos.css">
+
+    <!-- nombre en la pestania del navegador -->
+    <title>Game Station-Pc</title>
+
+    <!-- SEO meta description -->
+    <meta name="description" content= "En esta sección de Game Station encontrarás todos artículos relacionados a las Pc, podrás armar una pc o encontrar esa pieza que le falta para poder disfrutarla al máximo">
+
+    <!-- SEO meta keywords -->
+    <meta name="keywords" content="pc, computadora, hardware, software, microsoft, razer, corsair, redragon, logitech, amd, teclados, mouses, headsets, auriculares, gabinetes, monitores, pantallas led, motherboards, placa madre, procesador, placas de video, fuentes de poder, sillas">
+    
+    <!-- contenedor del logo titulo buscador carrito usuario --> 
+    <div class="contHead"> 
+      <div class="contHead-logTituPrincipal d-flex">
+        <!-- logo principal -->
+        <img src="imagen/logo/Logo 2.png" alt="logoPrincipal" class="logo-head">
+
+        <!-- titulo principal -->
+        <h1><a href="index.html" class="gstation gstation__titulo">GAME STATION</a></h1>
+      </div>
+      <!-- buscador -->
+      <div class="contHead-buscar">
+        <input type="text" placeholder="Buscar"><button type="submit" class="btn-buscar"><img src="imagen/otros/lupa.png" alt=""></button>
+      </div>
+
+      <!-- carrito y usario -->
+      <div class="contHead-carUsu">
+        <a href="compras.html"><img src="imagen/otros/carrtio.png" alt="carrito" class="contHead__carrito--carUsu"></a>
+        <img src="imagen/otros/persona.png" alt="usuario" class="contHead__usuario--carUsu">
+      </div>
+  </div>
+</head>
+
+<body>
+  <header class="head">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid col-12 col-lg-5 col-xs-4">
+            <a class="nav-link" href="index.html"><img src="imagen/imagenes de menu/imggs.png" alt="home" class="imgGs__menu"><h5 class="h5Home">Home</h5></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" body>
+                <ul class="navbar-nav">
+
+                  <!-- menu playstation -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="playstation.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagen/imagenes de menu/imgps.png" alt="playstation" class="imgPs__menu"><h5 class="h5Ps">Playstation</h5></a>
+                      <ul class="dropdown-menu subps__menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="playstation.html">Consolas</a></li>
+                        <li><a class="dropdown-item" href="playstation.html">Juegos</a></li>
+                        <li><a class="dropdown-item" href="playstation.html">Joysticks</a></li>
+                        <li><a class="dropdown-item" href="playstation.html">Headsets</a></li>
+                      </ul>
+                  </li>
+
+                  <!-- manu xbox -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="xbox.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgxbox.png" alt="xbox" class="imgXbox__menu"><h5 class="h5Xbox">Xbox</h5></a>
+                      <ul class="dropdown-menu subxbox__menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="xbox.html">Consolas</a></li>
+                        <li><a class="dropdown-item" href="xbox.html">Juegos</a></li>
+                        <li><a class="dropdown-item" href="xbox.html">Joysticks</a></li>
+                        <li><a class="dropdown-item" href="xbox.html">Headsets</a></li>
+                      </ul>
+                  </li>
+
+                  <!-- manu pc -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="pc.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgpc.png" alt="pc" class="imgPc__menu"><h5 class="h5Pc">Pc</h5></a>
+                      <ul class="dropdown-menu subpc__menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="pc.html">Monitores</a></li>
+                        <li><a class="dropdown-item" href="pc.html">Teclados</a></li>
+                        <li><a class="dropdown-item" href="pc.html">Mouses</a></li>
+                        <li><a class="dropdown-item" href="pc.html">Headsets</a></li>
+                      </ul>
+                  </li>
+
+                  <!-- menu nintendo -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="nintendo.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgnintendo.png" alt="nintendo" class="imgNintendo__menu"><h5 class="h5Nintendo">Nintendo</h5></a>
+                      <ul class="dropdown-menu subnintendo__menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="nintendo.html">Consolas</a></li>
+                        <li><a class="dropdown-item" href="nintendo.html">Juegos</a></li>
+                        <li><a class="dropdown-item" href="nintendo.html">Accesorios</a></li>
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+    <main>
+        <div class="pc">
+            <h2 class="subti subti--pc">PC</h2>
+        </div>
+
+    <h4 class="productos productos__consola productos__monitores--pc">Monitores</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/monitores/acer_Nitro_XV273.png" class="card-img-top" alt="monitorAcer">
+            <div class="card-body">
+              <h6 class="card-title">Acer nitro XV273 22"</h6>
+              <h5 class="card-precio">Precio: $8000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/monitores/asus.png" class="card-img-top" alt="MonitorAsus">
+            <div class="card-body">
+              <h6 class="card-title">Asus 23"</h6>
+              <h5 class="card-precio">Precio: $7000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/monitores/MSI-G27C2.png" class="card-img-top" alt="MonitorMsi">
+          <div class="card-body">
+            <h6 class="card-title">Msi G27C2 24"</h6>
+            <h5 class="card-precio">Precio: $7000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion teclados -->
+    <h4 class="productos productos__consola productos__teclados--pc">Teclados</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/teclados/reddragon-K556RGB.png" class="card-img-top" alt="tecladoRedragon">
+            <div class="card-body">
+              <h6 class="card-title">Redragon k556 RGB</h6>
+              <h5 class="card-precio">Precio: $2400</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/teclados/redragonk530-draconic.png" class="card-img-top" alt="tecladoRedragon">
+            <div class="card-body">
+              <h6 class="card-title">Redragon k530 draconic RGB</h6>
+              <h5 class="card-precio">Precio: $2800</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/teclados/redragon-diti-K585RGB.png" class="card-img-top" alt="tecladoRedragon">
+          <div class="card-body">
+            <h6 class="card-title">Redragon diti K585 RGB</h6>
+            <h5 class="card-precio">Precio: $2800</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion mouses -->
+    <h4 class="productos productos__consola productos__mouses--pc">Mouses</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/mouse/fisher-4200.png" class="card-img-top" alt="mouseFisher">
+            <div class="card-body">
+              <h6 class="card-title">Fisher 4200PDI</h6>
+              <h5 class="card-precio">Precio: $2100</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/mouse/redragon-impact-M908.png" class="card-img-top" alt="mouseRedragon">
+            <div class="card-body">
+              <h6 class="card-title">Redragon impact M908</h6>
+              <h5 class="card-precio">Precio: $2500</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/mouse/razer-deathadder-v2pro.png" class="card-img-top" alt="mouseRazer">
+          <div class="card-body">
+            <h6 class="card-title">Razer deathadder V2Pro</h6>
+            <h5 class="card-precio">Precio: $2500</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion headsets -->
+    <h4 class="productos productos__consola productos__consola--pc">Headsets</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/headsets/corsair-void-rgb-elite.png" class="card-img-top" alt="CorsairVoid">
+            <div class="card-body">
+              <h6 class="card-title">Corsair void elite</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/headsets/Logitech-G935-hero.png" class="card-img-top" alt="LogitechHero">
+            <div class="card-body">
+              <h6 class="card-title">Logitech G935 hero</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/headsets/razer-kraken-v7.1.png" class="card-img-top" alt="razerKraken7.1">
+          <div class="card-body">
+            <h6 class="card-title">Razer kraken V7.1 black</h6>
+            <h5 class="card-precio">Precio: $8000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+     <!-- seccion procesadores -->
+     <h4 class="productos productos__consola productos__consola--pc">Procesadores</h4>
+
+     <div class="d-flex">
+         <div class="card card--pc" style="width: 14rem;">
+             <img src="imagen/pc/procesadores/intel-corei5.png" class="card-img-top" alt="coreI5">
+             <div class="card-body">
+               <h6 class="card-title">Intel core I5 10ma Gen</h6>
+               <h5 class="card-precio">Precio: $3000</h5>
+               <a href="compras.html" class="btn btn-primary">Comprar</a>
+             </div>
+         </div>
+ 
+         <div class="card card--pc" style="width: 14rem;">
+             <img src="imagen/pc/procesadores/intel-corei9.png" class="card-img-top" alt="coreI9">
+             <div class="card-body">
+               <h6 class="card-title">Intel core I9 10ma Gen</h6>
+               <h5 class="card-precio">Precio: $6000</h5>
+               <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+             </div>
+         </div>
+ 
+         <div class="card card--pc" style="width: 14rem;">
+           <img src="imagen/pc/procesadores/amd-ryzentm-5.jpg" class="card-img-top" alt="amdRyzentm5">
+           <div class="card-body">
+             <h6 class="card-title">AMD ryzentm 5</h6>
+             <h5 class="card-precio">Precio: $8000</h5>
+             <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+           </div>
+       </div>
+     </div>
+
+      <!-- seccion gabinetes -->
+    <h4 class="productos productos__consola productos__consola--pc">Gabinetes</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/gabinete/ATX-balam-rush-s-lhytos.png" class="card-img-top" alt="gabineteATX">
+            <div class="card-body">
+              <h6 class="card-title">ATX balam rush S lhytos</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/gabinete/gabinete.reddragon.png" class="card-img-top" alt="gabineteRedragon">
+            <div class="card-body">
+              <h6 class="card-title">Redragon</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/gabinete/ocelot-gaming-OGEC01.png" class="card-img-top" alt="gabineteOcelot">
+          <div class="card-body">
+            <h6 class="card-title">Ocelot gaming OGEC01</h6>
+            <h5 class="card-precio">Precio: $8000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion placas de video -->
+    <h4 class="productos productos__consola productos__consola--pc">Placas de video</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/placa de video/geforce-GTX-1070.png" class="card-img-top" alt="geForceGTX">
+            <div class="card-body">
+              <h6 class="card-title">Geforce GTX 1070</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+ 
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/placa de video/geforce-rtx-3090.png" class="card-img-top" alt="geForceRTX">
+            <div class="card-body">
+              <h6 class="card-title">Geforce RTX 3090</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+ 
+         <div class="card card--pc" style="width: 14rem;">
+           <img src="imagen/pc/placa de video/geforce-RTX-ventus-xs.png" class="card-img-top" alt="geForceRTXven">
+           <div class="card-body">
+             <h6 class="card-title">Geforce RTX ventus xs</h6>
+             <h5 class="card-precio">Precio: $8000</h5>
+             <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+           </div>
+       </div>
+     </div>
+
+    <!-- seccion motherboards -->
+    <h4 class="productos productos__consola productos__consola--pc">Motherboards</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/motherboards/aorus-A520M-elite.png" class="card-img-top" alt="motherAorus">
+            <div class="card-body">
+              <h6 class="card-title">Aorus A520M elite</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/motherboards/motherGigabyteB450M.png" class="card-img-top" alt="motherGigabyte">
+            <div class="card-body">
+              <h6 class="card-title">Gigabyte B450M</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/motherboards/X299-Steel-LegendM1.png" class="card-img-top" alt="motherSteel">
+          <div class="card-body">
+            <h6 class="card-title">Steel legend M1 X299</h6>
+            <h5 class="card-precio">Precio: $8000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion sillas -->
+    <h4 class="productos productos__consola productos__consola--pc">Sillas</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/sillas/AKRacing-Pro-Xseries.png" class="card-img-top" alt="sillaAkracing">
+            <div class="card-body">
+              <h6 class="card-title">AKRacing Pro XSeries blanco</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/sillas/Xzeal-XZ15-rgb.png" class="card-img-top" alt="sillaXzeal">
+            <div class="card-body">
+              <h6 class="card-title">Xzeal XZ15 RGB</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/sillas/vulcan-amarilla.png" class="card-img-top" alt="sillaVulcan">
+          <div class="card-body">
+            <h6 class="card-title">Vulcan amarilla</h6>
+            <h5 class="card-precio">Precio: $8000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- seccion fuentes -->
+    <h4 class="productos productos__consola productos__consola--pc">Fuentes</h4>
+
+    <div class="d-flex">
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/fuente/M2-pro.png" class="card-img-top" alt="fuenteM2">
+            <div class="card-body">
+              <h6 class="card-title">M2 pro</h6>
+              <h5 class="card-precio">Precio: $3000</h5>
+              <a href="compras.html" class="btn btn-primary">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+            <img src="imagen/pc/fuente/corsair-VS650.png" class="card-img-top" alt="fuenteCorsair">
+            <div class="card-body">
+              <h6 class="card-title">Corsair VS650</h6>
+              <h5 class="card-precio">Precio: $6000</h5>
+              <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card card--pc" style="width: 14rem;">
+          <img src="imagen/pc/fuente/corsair-RM650I.png" class="card-img-top" alt="fuenteCorsair">
+          <div class="card-body">
+            <h6 class="card-title">Corsair RM650I</h6>
+            <h5 class="card-precio">Precio: $8000</h5>
+            <a href="compras.html" class="btn btn-primary btn-block">Comprar</a>
+          </div>
+      </div>
+    </div>
+
+     <!-- metodos de pago -->
+     <div class="metodopago1--contenedor d-flex justify-content-around align-items-center">
+      <div class="metodopago1__tarjeta--contenedor">
+        <img src="imagen/metodo de envio/tarjetamano.png" alt="tarjeta">
+        <span class="txtPago"><p>Paga con tarjeta o efectivo</p></span>
+      </div>
+
+      <div class="metodopago1__escudo--contenedor">
+        <img src="imagen/metodo de envio/escudo.png" alt="escudo">
+        <span class="txtPago"><p>Compra protegida</p></span>
+      </div>
+
+      <div class="metodopago1__auto--contenedor">
+        <img src="imagen/metodo de envio/autoenvio.png" alt="auto">
+        <span class="txtPago"><p>Envio o retiro en sucursal</p></span>
+      </div>
+    </div>
+    </main>
+    
+       <!-- footer -->
+       <footer class="footer footer--fondo">
+
+        <!-- parte de arriba del footer -->
+        <div class="seccion--footer seccion__arriba--footer">
+          <div class="seccion seccion--comprar row">
+            <h5 class="h5 h5--titulo">Comprar</h5>
+            <a href="#">¿Como comprar?</a>
+            <a href="#">Lista de juegos</a>
+            <a href="#">Colecciones</a>
+            <a href="#">Tienda</a>
+          </div>
+  
+          <!-- seccion ayuda del footer -->
+          <div class="seccion seccion--ayuda d-flex row">
+            <h5 class="h5 h5--titulo">Ayuda</h5>
+            <div class="row row--ayucom">
+              <a href="#">Necesitas ayuda?</a>
+              <a href="#">Crear comprabante</a>
+            </div>
+          </div>
+  
+          <!-- seccion comunidad del footer -->
+          <div class="seccion seccion--comunidad d-flex row">
+            <h5 class="h5 h5--titulo">Comunidad</h5>
+            <a href="#">Blog</a>
+            <a href="#">Sorteos</a>
+            <a href="#">Novedades</a>
+            <a href="#">Ofertas</a>
+          </div>
+  
+          <!-- seccion nuevos productos del footer -->
+          <div class="seccion seccion--nproductos d-flex row">
+            <h5 class="h5 h5--titulo">Nuestros productos</h5>
+            <a href="playstation.html">Playstation</a>
+            <a href="xbox.html">Xbox</a>
+            <a href="nintendo.html">Nintendo</a>
+            <a href="pc.html">PC</a>
+          </div>
+  
+          <!-- seccion soporte del footer -->
+          <div class="seccion seccion--soporte d-flex row">
+            <h5 class="h5 h5--titulo">Soporte</h5>
+            <a href="#">FAQ</a>
+            <a href="#">Terminos y condiciones</a>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Contactanos</a>
+          </div>
+        </div>
+  
+        <!-- linea de divsion en el footer -->
+        <hr class="linea linea--footer">
+  
+        <!-- parte de abajo del footer -->
+        <div class="seccion seccion--footer seccion__abajo--footer">
+          <div class="seccion seccion--rsociales">
+            <div class="rSocial--titulo">
+              <h5>Seguinos en nuestras redes sociales</h5>
+            </div>
+              <div class="face">
+                <img src="imagen/redesociales/facebook.png" alt="facebook">
+              </div>
+              
+              <div class="insta">
+                <img src="imagen/redesociales/instagram.png" alt="instagram">
+              </div>
+    
+              <div class="twit">
+                <img src="imagen/redesociales/twitter.png" alt="twitter">
+              </div>
+    
+              <div class="discor">
+                <img src="imagen/redesociales/discord.png" alt="discord">
+              </div>
+          </div>
+          
+          <!-- nuevas novedades por mail -->
+        <div class="mb-3 mail-footer">
+          <label for="exampleInputEmail1" class="form-label mail__lbl--footer">Para nuevas novedades:</label>
+          <div class="d-flex cont-emBtn">
+            <input type="email" class="form-control input-mail" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su mail aqui">
+            <button type="submit" class="btn mail__btn--footer">Enviar</button>
+          </div>
+        </div>
+  
+          <div class="img img--logo">
+            <img src="imagen/logo/logo 2.png" alt="logoFoooter">
+          </div>
+        </div>
+      </footer>
+  
+      <!-- boostrap  java script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
