@@ -8,6 +8,24 @@
     letter-spacing: 1rem;
 }
 
+.btn-submenuPc{
+    background-image: linear-gradient(to top, rgb(141, 15, 231), rgb(39, 5, 63));
+    margin-left: 15px;
+    .submenuPc{
+        border-radius: 10px;
+        background-image: linear-gradient(to left, rgb(141, 15, 231), rgb(39, 5, 63));
+        li{
+            a{
+                color: white;
+            }
+            a:hover{
+                background-color: rgba(71, 24, 104, 0.568);
+            }
+        }
+    }
+
+}
+
 .card--pc{
     background-image: linear-gradient(30deg, rgb(141, 15, 231), rgb(39, 5, 63),rgb(141, 15, 231));
     background-repeat: repeat;

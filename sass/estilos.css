@@ -813,6 +813,26 @@
   letter-spacing: 1rem;
 }
 
+.btn-submenuPc {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#8d0fe7), to(#27053f));
+  background-image: linear-gradient(to top, #8d0fe7, #27053f);
+  margin-left: 15px;
+}
+
+.btn-submenuPc .submenuPc {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#8d0fe7), to(#27053f));
+  background-image: linear-gradient(to left, #8d0fe7, #27053f);
+}
+
+.btn-submenuPc .submenuPc li a {
+  color: white;
+}
+
+.btn-submenuPc .submenuPc li a:hover {
+  background-color: rgba(71, 24, 104, 0.568);
+}
+
 .card--pc {
   background-image: linear-gradient(30deg, #8d0fe7, #27053f, #8d0fe7);
   background-repeat: repeat;
