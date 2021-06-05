@@ -1579,19 +1579,4 @@ body {
   padding-left: 10px;
   padding-top: 25px;
 }
-
-/* linea de separacion de horarios, todos los html */
-.linea--horarios {
-  background-color: #ff840075;
-}
-
-/* horarios de atencion */
-.horario .horario--title, .horario .horario--dias {
-  color: white;
-  text-align: center;
-}
-
-.horario .horario--dias p {
-  margin: 2px;
-}
 /*# sourceMappingURL=estilos.css.map */
