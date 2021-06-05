@@ -827,10 +827,12 @@
 
 .btn-submenuPc .submenuPc li a {
   color: white;
+  text-align: center;
 }
 
 .btn-submenuPc .submenuPc li a:hover {
   background-color: rgba(71, 24, 104, 0.568);
+  text-align: left;
 }
 
 .card--pc {
