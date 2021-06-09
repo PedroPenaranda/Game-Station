@@ -13,6 +13,8 @@
 @import "comprastyle";
 @import "queriesFormMovil";
 
+
+/* estilos generales */
 *{
     padding: 0;
     margin: 0;
@@ -30,11 +32,24 @@ body{
 }
 
 /* seccion de titulos en los html de los productos */
-.productos{
+.subti--producto{
     color: white;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 36px;
     font-weight: bolder;
     padding-left: 10px;
     padding-top: 25px;
+}
+
+/* linea de separacion de los subtitulos en los productos */
+.contLinea--subti{
+    display: flex;
+    justify-content: center;
+    .linea--subti{
+        border: 1px solid #ff9100;
+        border-radius: 50%;
+        margin: 5px 0px;
+        width: 90%;
+    }
+
 }
