@@ -160,40 +160,38 @@
 
     /* footer */
     .footer{
-        height: 650px;
+        height: 550px;
     }
     .seccion__arriba--footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-template-areas: "fComprar fNproductos"
-                             "fSoporte fComunidad"
-                             "fAyuda fAyuda";
-        padding: 15px;
-        .h5--titulo{
-            padding: 0px 15px;
+                             "fSoporte fAyuda";
+        padding: 10px;
+        justify-items: left;
+        .tlf{
+            padding: 0px 8px;
             font-size: 17px;
         }
         a{
             font-size: 13px;
             width: 90%;
-            padding: 1px 20px;
+            padding: 1px 15px;
         }
 
         .seccion--comprar{
             grid-area: fComprar;
+            margin-bottom: 15px;
         }
         
         .seccion--ayuda{
             grid-area: fAyuda;
         }
         
-        .seccion--comunidad{
-            grid-area: fComunidad;
-        }
-        
         .seccion--nproductos{
             grid-area: fNproductos;
+            margin-bottom: 15px;
         }
         
         .seccion--soporte{
@@ -253,22 +251,22 @@
     
     .face{
         grid-area: face;
-        padding: 20px 22px;
+        padding: 18px 22px;
     }
     
     .insta{
         grid-area: insta;
-        padding: 20px 22px;
+        padding: 18px 22px;
     }
     
     .twit{
         grid-area: twit;
-        padding: 20px 22px;
+        padding: 18px 22px;
     }
     
     .discor{
         grid-area: discor;
-        padding: 20px 22px;
+        padding: 18px 22px;
     } 
 }
 

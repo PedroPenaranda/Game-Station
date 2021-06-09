@@ -564,14 +564,25 @@
 .seccion__arriba--footer {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
   padding: 25px;
+  justify-items: center;
 }
 
-.seccion__arriba--footer .h5--titulo {
+.seccion__arriba--footer .tlf {
+  margin: 0;
+  padding: 0;
+  font-size: 19px;
+  font-weight: bold;
   color: black;
   padding: 0px 15px;
+}
+
+.seccion__arriba--footer .ulTlf {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .seccion__arriba--footer a {
@@ -1219,47 +1230,44 @@
   }
   /* footer */
   .footer {
-    height: 650px;
+    height: 550px;
   }
   .seccion__arriba--footer {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (1fr)[3];
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: "fComprar fNproductos" "fSoporte fComunidad" "fAyuda fAyuda";
-    padding: 15px;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "fComprar fNproductos" "fSoporte fAyuda";
+    padding: 10px;
+    justify-items: left;
   }
-  .seccion__arriba--footer .h5--titulo {
-    padding: 0px 15px;
+  .seccion__arriba--footer .tlf {
+    padding: 0px 8px;
     font-size: 17px;
   }
   .seccion__arriba--footer a {
     font-size: 13px;
     width: 90%;
-    padding: 1px 20px;
+    padding: 1px 15px;
   }
   .seccion__arriba--footer .seccion--comprar {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: fComprar;
+    margin-bottom: 15px;
   }
   .seccion__arriba--footer .seccion--ayuda {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: fAyuda;
-  }
-  .seccion__arriba--footer .seccion--comunidad {
     -ms-grid-row: 2;
     -ms-grid-column: 2;
-    grid-area: fComunidad;
+    grid-area: fAyuda;
   }
   .seccion__arriba--footer .seccion--nproductos {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: fNproductos;
+    margin-bottom: 15px;
   }
   .seccion__arriba--footer .seccion--soporte {
     -ms-grid-row: 2;
@@ -1332,25 +1340,25 @@
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: face;
-    padding: 20px 22px;
+    padding: 18px 22px;
   }
   .insta {
     -ms-grid-row: 2;
     -ms-grid-column: 2;
     grid-area: insta;
-    padding: 20px 22px;
+    padding: 18px 22px;
   }
   .twit {
     -ms-grid-row: 2;
     -ms-grid-column: 3;
     grid-area: twit;
-    padding: 20px 22px;
+    padding: 18px 22px;
   }
   .discor {
     -ms-grid-row: 2;
     -ms-grid-column: 4;
     grid-area: discor;
-    padding: 20px 22px;
+    padding: 18px 22px;
   }
 }
 

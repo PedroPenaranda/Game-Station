@@ -5,12 +5,22 @@
 
 .seccion__arriba--footer{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 25px;
-    .h5--titulo{
+    justify-items: center;
+    .tlf{
+        margin: 0;
+        padding: 0;
+        font-size: 19px;
+        font-weight: bold;
         color: black;
         padding: 0px 15px;
     }
+    .ulTlf{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }    
     a{
         text-decoration: none;
         width: 90%;
