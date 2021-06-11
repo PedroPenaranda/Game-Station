@@ -29,7 +29,8 @@ $letraChakra:'Chakra Petch', sans-serif;
 }
 
 
-.btn{
+.btn-comprar{
+    color: white;
     border: 2px solid $colorBtn;
     width: 100%;
     background-color: $colorBtn;
@@ -38,7 +39,8 @@ $letraChakra:'Chakra Petch', sans-serif;
     margin-bottom: 0px;
 }
 
-.btn:hover{
+.btn-comprar:hover{
+    color: white;
     border: 2px solid $colorBtn;
     font-size: 18px;
     font-weight: bold;

@@ -13,7 +13,6 @@
 @import "comprastyle";
 @import "queriesFormMovil";
 
-
 /* estilos generales */
 *{
     padding: 0;
@@ -24,11 +23,14 @@
 /* color del cuerpo de la pagina */
 body{
     background-image: linear-gradient(to left, rgb(10, 19, 71), rgb(138, 80, 13) 90%);
+    position: relative;
 }
 
 /* espacios del navegador */
 .navbar{
-    padding: 20px 0px 40px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 /* seccion de titulos en los html de los productos */
@@ -52,4 +54,14 @@ body{
         width: 90%;
     }
 
+}
+
+/* icono de whatsapp */
+.wppAll{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 89%;
+    right: 1%;
+    z-index: 999;
 }

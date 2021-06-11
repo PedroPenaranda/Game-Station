@@ -45,7 +45,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "social . logoFoot";
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .img--logo{
@@ -57,8 +57,6 @@
         background-image: linear-gradient(to bottom,black,rgb(37, 33, 33) );
         border-radius: 100%;
         border: 1px solid white;
-        position: relative;
-        left: 30%;
     }
 }
 
@@ -71,10 +69,14 @@
           
         }
         .mail__btn--footer{
+            background-color: #ff9100;
             color: white;           
             width: 20%;
             border-radius: 0px 40px 40px 0px;
             border: 1px solid white;
+        }
+        .mail__btn--footer:hover{
+            background-color: #f08c0a;
         }
 }
 

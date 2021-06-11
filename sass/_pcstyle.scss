@@ -8,9 +8,15 @@
     letter-spacing: 1rem;
 }
 
-.btn-submenuPc{
-    background-image: linear-gradient(to top, rgb(141, 15, 231), rgb(39, 5, 63));
-    margin-left: 15px;
+.contenedor-subMenuPc{
+    .btn-subPc{
+        background-image: linear-gradient(to top, rgb(141, 15, 231), rgb(39, 5, 63));
+        margin-left: 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+    }
+
     .submenuPc{
         border-radius: 10px;
         background-image: linear-gradient(to left, rgb(141, 15, 231), rgb(39, 5, 63));

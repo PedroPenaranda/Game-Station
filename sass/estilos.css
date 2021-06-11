@@ -617,9 +617,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-items: center;
 }
 
 .img--logo {
@@ -636,8 +634,6 @@
   background-image: linear-gradient(to bottom, black, #252121);
   border-radius: 100%;
   border: 1px solid white;
-  position: relative;
-  left: 30%;
 }
 
 /* mail para recibir novedades */
@@ -651,10 +647,15 @@
 }
 
 .mail-footer .mail__btn--footer {
+  background-color: #ff9100;
   color: white;
   width: 20%;
   border-radius: 0px 40px 40px 0px;
   border: 1px solid white;
+}
+
+.mail-footer .mail__btn--footer:hover {
+  background-color: #f08c0a;
 }
 
 .seccion--rsociales {
@@ -824,24 +825,27 @@
   letter-spacing: 1rem;
 }
 
-.btn-submenuPc {
+.contenedor-subMenuPc .btn-subPc {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#8d0fe7), to(#27053f));
   background-image: linear-gradient(to top, #8d0fe7, #27053f);
   margin-left: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
 }
 
-.btn-submenuPc .submenuPc {
+.contenedor-subMenuPc .submenuPc {
   border-radius: 10px;
   background-image: -webkit-gradient(linear, right top, left top, from(#8d0fe7), to(#27053f));
   background-image: linear-gradient(to left, #8d0fe7, #27053f);
 }
 
-.btn-submenuPc .submenuPc li a {
+.contenedor-subMenuPc .submenuPc li a {
   color: white;
   text-align: center;
 }
 
-.btn-submenuPc .submenuPc li a:hover {
+.contenedor-subMenuPc .submenuPc li a:hover {
   background-color: rgba(71, 24, 104, 0.568);
   text-align: left;
 }
@@ -954,7 +958,8 @@
   text-align: center;
 }
 
-.btn {
+.btn-comprar {
+  color: white;
   border: 2px solid #ff9100;
   width: 100%;
   background-color: #ff9100;
@@ -963,7 +968,8 @@
   margin-bottom: 0px;
 }
 
-.btn:hover {
+.btn-comprar:hover, .formulario .btn-cancelar:hover, .formulario .btn-volver:hover {
+  color: white;
   border: 2px solid #ff9100;
   font-size: 18px;
   font-weight: bold;
@@ -1305,7 +1311,6 @@
     padding: 10px;
     width: 70px;
     height: 70px;
-    left: 13%;
   }
   .seccion--rsociales {
     -ms-grid-row: 1;
@@ -1574,11 +1579,15 @@
 body {
   background-image: -webkit-gradient(linear, right top, left top, from(#0a1347), color-stop(90%, #8a500d));
   background-image: linear-gradient(to left, #0a1347, #8a500d 90%);
+  position: relative;
 }
 
 /* espacios del navegador */
 .navbar {
-  padding: 20px 0px 40px 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 /* seccion de titulos en los html de los productos */
@@ -1606,5 +1615,15 @@ body {
   border-radius: 50%;
   margin: 5px 0px;
   width: 90%;
+}
+
+/* icono de whatsapp */
+.wppAll {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 89%;
+  right: 1%;
+  z-index: 999;
 }
 /*# sourceMappingURL=estilos.css.map */
