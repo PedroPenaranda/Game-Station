@@ -44,6 +44,9 @@ $heightInput: 35px;
             border-bottom: 2px solid $colorNaranja;
             border-radius: 0%;
         }
+        .input-nombre:focus{
+            box-shadow: 0 0 30px #4b2900;
+        }
     }
 
     .telefono{
@@ -54,6 +57,9 @@ $heightInput: 35px;
             border: 0px;
             border-bottom: 2px solid $colorNaranja;
             border-radius: 0%;
+        }
+        .input-telefono:focus{
+            box-shadow: 0 0 30px #4b2900;
         }
     }
 
@@ -66,6 +72,9 @@ $heightInput: 35px;
             border: 0px;
             border-bottom: 2px solid $colorNaranja;
             border-radius: 0%;
+        }
+        .input-mail:focus{
+            box-shadow: 0 0 30px #4b2900;
         }
     }
 
@@ -83,16 +92,24 @@ $heightInput: 35px;
             border: 0px;
             border-bottom: 2px solid $colorNaranja;
             border-radius: 0%;
-            .input-direccion:scope{
-                box-shadow: 0px;
-            }
         }
+        .input-direccion:focus{
+            box-shadow: 0 0 30px #4b2900;
+        }
+
         .input-casa{
             @extend .input-direccion;
         }
+        .input-casa:focus{
+            box-shadow: 0 0 30px #4b2900;
+        }
+
 
         .input-cp{
             @extend .input-direccion;
+        }
+        .input-cp:focus{
+            box-shadow: 0 0 30px #4b2900;
         }
 
         .envio{
@@ -136,7 +153,7 @@ $heightInput: 35px;
     }
 
     /* boton comprar */
-    .btn-comprar{
+    .btn-comprarForm{
         @include btns(13px, $colorbtnLetra, 8px, $colorNaranja);
         border-bottom: 4px groove rgb(30, 139, 30);
         border-right: 4px groove rgb(30, 139, 30);

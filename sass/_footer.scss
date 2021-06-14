@@ -1,5 +1,5 @@
 .footer{
-    height: 400px;
+    height: 345px;
     background-color: rgba(255, 166, 0, 0.651);
 }
 
@@ -64,7 +64,7 @@
 .mail-footer{
     color: rgb(0, 0, 0);
         .input-mail{
-            width: 80%;
+            width: 260px;
             border-radius: 40px 0px 0px 40px;
           
         }
@@ -83,13 +83,12 @@
 
 .seccion--rsociales{
     grid-area: social;
-    padding: 22px;
-    width: 500px;
+    padding: 12px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 20% 80%;
-    grid-template-areas: "rsocial rsocial rsocial rsocial rsocial ."
-                         "face insta twit discor . .";
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "rsocial"
+                         "imgRedeSocial";
     h5{
         color: black;
     }
@@ -108,22 +107,17 @@
     grid-area: rsocial;
 }
 
-.face{
-    grid-area: face;
-    padding: 20px 0px;
+.lista-redSocial{
+    grid-area: imgRedeSocial;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-.insta{
-    grid-area: insta;
-    padding: 20px 0px;
-}
-
-.twit{
-    grid-area: twit;
-    padding: 20px 0px;
-}
-
-.discor{
-    grid-area: discor;
-    padding: 20px 0px;
+/* copyright */
+.copy{
+    text-align: center;
+    color: rgba(80, 80, 133, 0.644);
 }

@@ -37,6 +37,19 @@ $letraChakra:'Chakra Petch', sans-serif;
     box-shadow:  0px 0px 30px $colorHome,
 }
 
+/* imagen para responsive del home */
+#home{
+    position: absolute;
+    padding: 0;
+    img{
+        height: 0px;
+        width: 0px;
+    }
+    .el-h5Home{
+        font-size: 0px;
+    }
+}  
+
 /*Menu playstation*/
 .imgPs__menu{
     background-image: linear-gradient(90deg, $colorPs,rgb(60, 13, 168), $colorPs);
@@ -165,5 +178,6 @@ $letraChakra:'Chakra Petch', sans-serif;
     text-align: center;
     font-weight: bold;
     font-family: $letraChakra;
+    margin: 0px;
 }
 

@@ -63,5 +63,12 @@
         .contHead__usuario--carUsu{
             @extend .contHead__carrito--carUsu;
         }
+
+        .contHead__carrito--carUsu:hover{
+            background-image: linear-gradient(to bottom, #e47804,#5a3106);
+        }
+        .contHead__usuario--carUsu:hover{
+            @extend .contHead__carrito--carUsu:hover
+        }
     }
 }

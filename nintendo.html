@@ -50,23 +50,24 @@
     </div>
 
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid col-12 col-lg-5 col-xs-4">
-            <a class="nav-link" href="index.html"><img src="imagen/imagenes de menu/imggs.png" alt="home" class="imgGs__menu"><h5 class="h5Home">Home</h5></a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="nav-link" href="index.html" id="home"><img src="imagen/imagenes de menu/imggs.png" alt="home" class="el-img-home"><h5 class="el-h5Home">Home</h5></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <img src="imagen/logo/main-hamburguesa.png" alt="iconmenu" class="iconMainHamburguer">
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown" body>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav col-12 justify-content-around">
 
                   <!-- menu playstation -->
                   <li class="nav-item dropdown">
                     <a class="nav-link" href="playstation.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="imagen/imagenes de menu/imgps.png" alt="playstation" class="imgPs__menu"><h5 class="h5Ps">Playstation</h5></a>
                       <ul class="dropdown-menu subps__menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="playstation.html">Consolas</a></li>
-                        <li><a class="dropdown-item" href="playstation.html">Juegos</a></li>
-                        <li><a class="dropdown-item" href="playstation.html">Joysticks</a></li>
-                        <li><a class="dropdown-item" href="playstation.html">Headsets</a></li>
+                        <li><a class="dropdown-item el-liA" href="playstation.html">Playstation</a></li>
+                        <li><a class="dropdown-item" href="playstation.html#consola-ps">Consolas</a></li>
+                        <li><a class="dropdown-item" href="playstation.html#juego-ps">Juegos</a></li>
+                        <li><a class="dropdown-item" href="playstation.html#joystick-ps">Joysticks</a></li>
+                        <li><a class="dropdown-item" href="playstation.html#headset-ps">Headsets</a></li>
                       </ul>
                   </li>
 
@@ -74,17 +75,24 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link" href="xbox.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgxbox.png" alt="xbox" class="imgXbox__menu"><h5 class="h5Xbox">Xbox</h5></a>
                       <ul class="dropdown-menu subxbox__menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="xbox.html">Consolas</a></li>
-                        <li><a class="dropdown-item" href="xbox.html">Juegos</a></li>
-                        <li><a class="dropdown-item" href="xbox.html">Joysticks</a></li>
-                        <li><a class="dropdown-item" href="xbox.html">Headsets</a></li>
+                        <li><a class="dropdown-item el-liA" href="xbox.html">Xbox</a></li>
+                        <li><a class="dropdown-item" href="xbox.html#consola-xbox">Consolas</a></li>
+                        <li><a class="dropdown-item" href="xbox.html#juego-xbox">Juegos</a></li>
+                        <li><a class="dropdown-item" href="xbox.html#joystick-xbox">Joysticks</a></li>
+                        <li><a class="dropdown-item" href="xbox.html#headset-xbox">Headsets</a></li>
                       </ul>
+                  </li>
+
+                  <!-- home -->
+                  <li class="nav-item index">
+                    <a class="nav-link" href="index.html"><img src="imagen/imagenes de menu/imggs.png" alt="home" class="imgGs__menu"><h5 class="h5Home">Home</h5></a>
                   </li>
 
                   <!-- manu pc -->
                   <li class="nav-item dropdown">
                     <a class="nav-link" href="pc.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgpc.png" alt="pc" class="imgPc__menu"><h5 class="h5Pc">Pc</h5></a>
                       <ul class="dropdown-menu subpc__menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item el-liA" href="pc.html">Pc</a></li>
                         <li><a class="dropdown-item" href="pc.html#monitor">Monitores</a></li>
                         <li><a class="dropdown-item" href="pc.html#teclado">Teclados</a></li>
                         <li><a class="dropdown-item" href="pc.html#mouse">Mouses</a></li>
@@ -102,9 +110,10 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link" href="nintendo.html" role="button" data-bs-toggle="dropdown"><img src="imagen/imagenes de menu/imgnintendo.png" alt="nintendo" class="imgNintendo__menu"><h5 class="h5Nintendo">Nintendo</h5></a>
                       <ul class="dropdown-menu subnintendo__menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="nintendo.html">Consolas</a></li>
-                        <li><a class="dropdown-item" href="nintendo.html">Juegos</a></li>
-                        <li><a class="dropdown-item" href="nintendo.html">Accesorios</a></li>
+                        <li><a class="dropdown-item el-liA" href="nintendo.html">Nintendo</a></li>
+                        <li><a class="dropdown-item" href="#consola-nintendo">Consolas</a></li>
+                        <li><a class="dropdown-item" href="#juego-nintendo">Juegos</a></li>
+                        <li><a class="dropdown-item" href="#accesorio-nintendo">Accesorios</a></li>
                       </ul>
                   </li>
                 </ul>
@@ -114,20 +123,20 @@
 
   <main>
     <!-- icono de whatsapp -->
-    <a href="https://web.whatsapp.com/"><img src="imagen/logo/whatsapp-icon.png" alt="wppStiky" class="wppAll"></a>
+    <a href="https://web.whatsapp.com/" class="linkWpp"><img src="imagen/logo/whatsapp-icon.png" alt="wppStiky" class="wppAll"></a>
 
     <!-- subtitulo de nintendo -->
       <div class="nintendo">
           <h2 class="subti subti--nintendo">NINTENDO</h2>
       </div>
     <!-- seccion consolas -->
-    <span class="subti--producto">Consolas</span>
+    <span class="subti--producto" id="consola-nintendo">Consolas</span>
 
     <div class="contLinea--subti">
       <hr class="linea--subti">
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="allProduct d-flex justify-content-center">
         <div class="card card--nintendo" style="width: 14rem;">
             <img src="imagen/nintendo/consolas/nintendo-switch.png" class="card-img-top" alt="consolaNintendoSwitch">
             <div class="card-body">
@@ -157,13 +166,13 @@
     </div>
 
     <!-- seccion juegos -->
-    <span class="subti--producto">Juegos</span>
+    <span class="subti--producto" id="juego-nintendo">Juegos</span>
 
     <div class="contLinea--subti">
       <hr class="linea--subti">
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="allProduct d-flex justify-content-center">
         <div class="card card--nintendo" style="width: 14rem;">
             <img src="imagen/nintendo/juegos/smashbros3ds.png" class="card-img-top" alt="juego3ds">
             <div class="card-body">
@@ -193,13 +202,13 @@
     </div>
 
     <!-- seccion accesorios -->
-    <span class="subti--producto">Accesorios</span>
+    <span class="subti--producto" id="accesorio-nintendo">Accesorios</span>
 
     <div class="contLinea--subti">
       <hr class="linea--subti">
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="allProduct d-flex justify-content-center">
         <div class="card card--nintendo" style="width: 14rem;">
             <div class="cardimg">
               <img src="imagen/nintendo/accesorios/switch-protector.png" class="card-img-top" alt="protectorNintendo">
@@ -305,21 +314,12 @@
             <div class="rSocial--titulo">
               <h5>Seguinos en nuestras redes sociales</h5>
             </div>
-              <div class="face">
-                <img src="imagen/redesociales/facebook.png" alt="facebook">
-              </div>
-              
-              <div class="insta">
-                <img src="imagen/redesociales/instagram.png" alt="instagram">
-              </div>
-    
-              <div class="twit">
-                <img src="imagen/redesociales/twitter.png" alt="twitter">
-              </div>
-    
-              <div class="discor">
-                <img src="imagen/redesociales/discord.png" alt="discord">
-              </div>
+            <ul class="lista-redSocial">
+              <li><a href="https://www.facebook.com/"><img src="imagen/redesociales/facebook.png" alt="facebook"></a></li>
+              <li><a href="https://www.instagram.com/"><img src="imagen/redesociales/instagram.png" alt="instagram"></a></li>
+              <li><a href="https://twitter.com/"><img src="imagen/redesociales/twitter.png" alt="twitter"></a></li>
+              <li><a href="https://discord.com/"><img src="imagen/redesociales/discord.png" alt="discord"></a></li>
+            </ul>
           </div>    
 
           <!-- nuevas novedades por mail -->
@@ -332,9 +332,11 @@
           </div>
   
           <div class="img img--logo">
-            <img src="imagen/logo/logoFooter.png" alt="logoFoooter">
+            <a href="#"><img src="imagen/logo/logoFooter.png" alt="logoFooter"></a>
           </div>
         </div>
+
+        <h6 class="copy">Copyright © Pedro Peñaranda</h6>
       </footer>
   
       <!-- boostrap  java script -->
