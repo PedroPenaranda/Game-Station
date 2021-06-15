@@ -1,4 +1,4 @@
-@media (max-width: 472px) and (min-width: 300px){
+@media (max-width: 1023px) and (min-width: 767px){
     /* todo del header */
     .contHead{
         display: grid;
@@ -11,49 +11,38 @@
         .contHead-logTituPrincipal{
             grid-area: gamestation;
             .logo-head{
-                width: 45px;
-                height: 45px;
+                width: 60px;
+                height: 60px;
             }
             h1{
                 .gstation__titulo{
-                    font-size: 25px;
-                    letter-spacing: 10px;
+                    font-size: 55px;
+                    letter-spacing: 15px;
+                    top: 15px;
                 }
             }
         }    
         .contHead-buscar{
-            margin-left: 10px;
             grid-area: buscador;
+            input{
+                width: 300px;
+            }
         }
 
         .contHead-carUsu{
             grid-area: carUsu;
             img{
-                width: 40px;
-                height: 40px;
+                width: 45px;
+                height: 45px;
             }
-        }
-    }
-    
-    /* navegador */
-    .head{
-        .navbar{
-            padding: 5px 0px 15px;
-            margin-top: 10px;
         }
     }
 
     /* tamanio de letras en los submenu */
     .subps__menu, .subxbox__menu, .subpc__menu, .subnintendo__menu{
         .dropdown-item{
-            font-size: 18px; 
+            font-size: 20px; 
         }
-    }
-
-    /* icono de el menu hamburguesa */
-    .iconMainHamburguer{
-        height: 30px;
-        width: 30px;
     }
 
     /* boton del manu hamburguesa */
@@ -64,15 +53,15 @@
 
     /* Tamanios de las imagenes */
     .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu{
-    width: 50px;
-    height: 50px;
-    }
+        width: 75px;
+        height: 75px;
+        }
 
     /* modificacion de las letras del nav principal */
     .h5Ps, .h5Xbox, .h5Pc, .h5Nintendo{
         position: absolute;
-        top: 23px;
-        left: 85px;
+        top: 33px;
+        left: 95px;
     }
 
     /* imagen para responsive del home */
@@ -80,8 +69,8 @@
         position: relative;
         padding: 4px;
         img{
-            height: 50px;
-            width: 50px;
+            height: 75px;
+            width: 75px;
             background-image: linear-gradient(90deg, $colorHome, #c4450b,$colorHome);
             border-radius: 100%;
             background-repeat: repeat;
@@ -98,8 +87,8 @@
             font-weight: bold;
             font-family: $letraChakra;
             margin: 0px;
-            top: 16px;
-            left: 70px;
+            top: 30px;
+            left: 93px;
         }
     } 
 
@@ -116,54 +105,35 @@
             font-size: 0px;
         }
     }
-    
-    /* carrusel principal novedades */
-    .carousel--novedades{
-        width: 85%;
-        border-radius: 18px;  
-        img{
-            border-radius: 16px;
-            border: 5px solid #ff8300;
-        }
-    }
+
     /* botones dentro del carrusel */
     .boton{
-        height: 32px;
-        width: 30px;
+        height: 29px;
+        width: 27px;
     }
 
-    /* subtitulos de todas los html de productos */
-    .subti--playstation, .subti--xbox, .subti--pc, .subti--nintendo{
-        font-size: 28px;
-        padding-bottom: 1px;
+     /* subtitulos de todas los html de productos */
+     .subti--playstation, .subti--xbox, .subti--pc, .subti--nintendo{
+        font-size: 38px;
+        padding: 0;
     }
 
-    /* subtitulos de las secciones dentro de los html de los productos */
-    main{
+     /* subtitulos de las secciones dentro de los html de los productos */
+     main{
         .subti--producto{
-            font-size: 24px;
-            font-weight: bolder;
-            padding-left: 10px;
-            padding-top: 25px;
+            font-size: 32px;
         }
-    }
-
-    /* nueva posicion de las cards para el responsive */
-    .allProduct{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     /* metodo de pago */
     .metodopago1--contenedor{
         height: 150px;
         img{
-            width: 60px;
-            height: 60px;
+            width: 90px;
+            height: 90px;
         }
         .txtPago{
-            font-size: 10px;
+            font-size: 13px;
         }
         /* animacion de tarjeta */
         @keyframes tarjeta{
@@ -189,112 +159,69 @@
         }
     }
 
-
-    /* footer */
-    .footer{
-        height: 550px;
+     /* footer */
+     .footer{
+        height: 320px;
     }
+
     .seccion__arriba--footer{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: "fComprar fNproductos"
-                             "fSoporte fAyuda";
-        padding: 10px;
-        justify-items: left;
         .tlf{
-            padding: 0px 8px;
-            font-size: 17px;
+            font-size: 16px;
         }
         a{
-            font-size: 13px;
+            font-size: 14px;
             width: 90%;
             padding: 1px 15px;
         }
-
-        .seccion--comprar{
-            grid-area: fComprar;
-            margin-bottom: 15px;
-        }
-        
-        .seccion--ayuda{
-            grid-area: fAyuda;
-        }
-        
-        .seccion--nproductos{
-            grid-area: fNproductos;
-            margin-bottom: 15px;
-        }
-        
-        .seccion--soporte{
-            grid-area: fSoporte;
-        }
-
     }
 
+    /* parte de abajo del footer*/
     .seccion__abajo--footer{
         display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: 60% 40%;
-        grid-template-areas: "social social"
-                             "buscador logoFoot";
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: 40% 40% 20%;
+        grid-template-areas: "fSocial fMail fLogo";
     }
 
-    .mail-footer{
-        grid-area: buscador;
-        margin-left: 15px;
-    }
-    
     .img--logo{
-        grid-area: logoFoot;
-        padding: 0px 0px;
+        grid-area: fLogo;
         img{
-            padding: 10px;
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
         }
     }
     
     .seccion--rsociales{
-        grid-area: social;
+        grid-area: fSocial;
+        padding: 1px;
         h5{
-            padding: 0px 28px;
-            font-size: 17px;
+            padding: 0px 1px;
+            font-size: 16px;
         }
         img{
             width: 40px;
             height: 40px;
         } 
     }
-    
-    .rSocial--titulo{
-        grid-area: rsocial;
-    }
 
     /* mail para recibir novedades */
     .mail-footer{
-            .input-mail{
-                width: 65%;
-                border-radius: 40px 0px 0px 40px; 
-            }
-            .mail__btn--footer{          
-                width: 25%;
-                border-radius: 0px 40px 40px 0px;
-                border: 1px solid white;
-            }
+        grid-area: fMail;
+        margin-left: 15px;
+        .input-mail{
+            width: 70%; 
+        }
+        .mail__btn--footer{          
+            width: 28%;
+        }
     }
-    
 
     /* icono de whatsapp */
     .linkWpp{
         .wppAll{
-            width: 45px;
-            height: 45px;
-            right: 1.5%;
-            top: 90.5%;
+            width: 60px;
+            height: 60px;
+            right: 1%;
+            top: 86%;
         }
     }
 }
-

@@ -668,6 +668,11 @@
   border-radius: 40px 0px 0px 40px;
 }
 
+.mail-footer .input-mail:focus {
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+          box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+}
+
 .mail-footer .mail__btn--footer {
   background-color: #ff9100;
   color: white;
@@ -678,6 +683,11 @@
 
 .mail-footer .mail__btn--footer:hover {
   background-color: #f08c0a;
+}
+
+.mail-footer .mail__btn--footer:focus {
+  -webkit-box-shadow: 0 0 6px #f08c0a;
+          box-shadow: 0 0 6px #f08c0a;
 }
 
 .seccion--rsociales {
@@ -948,6 +958,7 @@
   height: 210px;
   padding: 10px;
   border-radius: 15px;
+  border-bottom: 2px solid #c4450b;
 }
 
 .card {
@@ -997,6 +1008,11 @@
           animation-delay: 0s;
 }
 
+.btn-comprar:focus {
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+          box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+}
+
 /* animacion de botones de compra */
 @-webkit-keyframes btnCompra {
   0% {
@@ -1021,7 +1037,7 @@
   }
 }
 
-@media (max-width: 426px) and (min-width: 300px) {
+@media (max-width: 472px) and (min-width: 300px) {
   /* todo del header */
   .contHead {
     display: -ms-grid;
@@ -1068,6 +1084,7 @@
     padding: 5px 0px 15px;
     margin-top: 10px;
   }
+  /* tamanio de letras en los submenu */
   .subps__menu .dropdown-item, .subxbox__menu .dropdown-item, .subpc__menu .dropdown-item, .subnintendo__menu .dropdown-item {
     font-size: 18px;
   }
@@ -1397,10 +1414,311 @@
   }
   /* icono de whatsapp */
   .linkWpp .wppAll {
+    width: 45px;
+    height: 45px;
+    right: 1.5%;
+    top: 90.5%;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  /* todo del header */
+  .contHead {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    -ms-grid-rows: 60% 40%;
+        grid-template-rows: 60% 40%;
+        grid-template-areas: "gamestation gamestation" "buscador carUsu";
+    padding: 0px 0px 10px;
+    justify-items: center;
+  }
+  .contHead .contHead-logTituPrincipal {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: gamestation;
+  }
+  .contHead .contHead-logTituPrincipal .logo-head {
+    width: 60px;
+    height: 60px;
+  }
+  .contHead .contHead-logTituPrincipal h1 .gstation__titulo {
+    font-size: 55px;
+    letter-spacing: 15px;
+    top: 15px;
+  }
+  .contHead .contHead-buscar {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: buscador;
+  }
+  .contHead .contHead-buscar input {
+    width: 300px;
+  }
+  .contHead .contHead-carUsu {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: carUsu;
+  }
+  .contHead .contHead-carUsu img {
+    width: 45px;
+    height: 45px;
+  }
+  /* tamanio de letras en los submenu */
+  .subps__menu .dropdown-item, .subxbox__menu .dropdown-item, .subpc__menu .dropdown-item, .subnintendo__menu .dropdown-item {
+    font-size: 20px;
+  }
+  /* boton del manu hamburguesa */
+  .navbar-toggler:focus {
+    -webkit-box-shadow: 4px 4px 5px #c4450b, -4px -4px 5px #c4450b;
+            box-shadow: 4px 4px 5px #c4450b, -4px -4px 5px #c4450b;
+  }
+  /* Tamanios de las imagenes */
+  .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu {
+    width: 75px;
+    height: 75px;
+  }
+  /* modificacion de las letras del nav principal */
+  .h5Ps, .h5Xbox, .h5Pc, .h5Nintendo {
+    position: absolute;
+    top: 33px;
+    left: 95px;
+  }
+  /* imagen para responsive del home */
+  #home {
+    position: relative;
+    padding: 4px;
+  }
+  #home img {
+    height: 75px;
+    width: 75px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ff9100), color-stop(#c4450b), to(#ff9100));
+    background-image: linear-gradient(90deg, #ff9100, #c4450b, #ff9100);
+    border-radius: 100%;
+    background-repeat: repeat;
+    -webkit-animation: gs 5s infinite;
+            animation: gs 5s infinite;
+    background-size: 450%;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  #home .el-h5Home {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0px;
+    top: 30px;
+    left: 93px;
+  }
+  .index {
+    position: absolute;
+    padding: 0;
+  }
+  .index .imgGs__menu {
+    height: 0px;
+    width: 0px;
+  }
+  .index .h5Home {
+    position: absolute;
+    font-size: 0px;
+  }
+  /* botones dentro del carrusel */
+  .boton {
+    height: 29px;
+    width: 27px;
+  }
+  /* subtitulos de todas los html de productos */
+  .subti--playstation, .subti--xbox, .subti--pc, .subti--nintendo {
+    font-size: 38px;
+    padding: 0;
+  }
+  /* subtitulos de las secciones dentro de los html de los productos */
+  main .subti--producto {
+    font-size: 32px;
+  }
+  /* metodo de pago */
+  .metodopago1--contenedor {
+    height: 150px;
+    /* animacion de tarjeta */
+    /* animacion de escudo */
+    /* animacion de auto */
+  }
+  .metodopago1--contenedor img {
+    width: 90px;
+    height: 90px;
+  }
+  .metodopago1--contenedor .txtPago {
+    font-size: 13px;
+  }
+  @-webkit-keyframes tarjeta {
+    0% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+  }
+  @keyframes tarjeta {
+    0% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(65px);
+              transform: translate(65px);
+    }
+  }
+  @-webkit-keyframes escudo {
+    0% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+    50% {
+      -webkit-transform: translate(-2px) perspective(150px) rotateY(-45deg);
+              transform: translate(-2px) perspective(150px) rotateY(-45deg);
+    }
+    100% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+  }
+  @keyframes escudo {
+    0% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+    50% {
+      -webkit-transform: translate(-2px) perspective(150px) rotateY(-45deg);
+              transform: translate(-2px) perspective(150px) rotateY(-45deg);
+    }
+    100% {
+      -webkit-transform: translate(25px) perspective(150px) rotateY(45deg);
+              transform: translate(25px) perspective(150px) rotateY(45deg);
+    }
+  }
+  @-webkit-keyframes car {
+    0% {
+      -webkit-transform: translate(56px);
+              transform: translate(56px);
+    }
+    25% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    50% {
+      -webkit-transform: translate(0px) perspective(200px) rotateY(-180deg);
+              transform: translate(0px) perspective(200px) rotateY(-180deg);
+    }
+    75% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(-180deg);
+              transform: translate(56px) perspective(200px) rotateY(-180deg);
+    }
+    100% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(0deg);
+              transform: translate(56px) perspective(200px) rotateY(0deg);
+    }
+  }
+  @keyframes car {
+    0% {
+      -webkit-transform: translate(56px);
+              transform: translate(56px);
+    }
+    25% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    50% {
+      -webkit-transform: translate(0px) perspective(200px) rotateY(-180deg);
+              transform: translate(0px) perspective(200px) rotateY(-180deg);
+    }
+    75% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(-180deg);
+              transform: translate(56px) perspective(200px) rotateY(-180deg);
+    }
+    100% {
+      -webkit-transform: translate(56px) perspective(200px) rotateY(0deg);
+              transform: translate(56px) perspective(200px) rotateY(0deg);
+    }
+  }
+  /* footer */
+  .footer {
+    height: 320px;
+  }
+  .seccion__arriba--footer .tlf {
+    font-size: 16px;
+  }
+  .seccion__arriba--footer a {
+    font-size: 14px;
+    width: 90%;
+    padding: 1px 15px;
+  }
+  /* parte de abajo del footer*/
+  .seccion__abajo--footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40% 20%;
+        grid-template-columns: 40% 40% 20%;
+        grid-template-areas: "fSocial fMail fLogo";
+  }
+  .img--logo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: fLogo;
+  }
+  .img--logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .seccion--rsociales {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: fSocial;
+    padding: 1px;
+  }
+  .seccion--rsociales h5 {
+    padding: 0px 1px;
+    font-size: 16px;
+  }
+  .seccion--rsociales img {
     width: 40px;
     height: 40px;
-    right: 1.5%;
-    top: 91.5%;
+  }
+  /* mail para recibir novedades */
+  .mail-footer {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: fMail;
+    margin-left: 15px;
+  }
+  .mail-footer .input-mail {
+    width: 70%;
+  }
+  .mail-footer .mail__btn--footer {
+    width: 28%;
+  }
+  /* icono de whatsapp */
+  .linkWpp .wppAll {
+    width: 60px;
+    height: 60px;
+    right: 1%;
+    top: 86%;
   }
 }
 
@@ -1629,6 +1947,14 @@
   }
 }
 
+@media (max-width: 1023px) and (min-width: 767px) {
+  .formulario {
+    width: 60%;
+    height: 710px;
+    left: 20%;
+  }
+}
+
 /* estilos generales */
 * {
   padding: 0;
@@ -1676,8 +2002,9 @@ body {
   font-family: 'Chakra Petch', sans-serif;
   font-size: 36px;
   font-weight: bolder;
-  padding-left: 10px;
-  padding-top: 25px;
+  position: relative;
+  top: 15px;
+  left: 10px;
 }
 
 /* linea de separacion de los subtitulos en los productos */

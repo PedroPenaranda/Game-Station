@@ -6,6 +6,7 @@ $letraChakra:'Chakra Petch', sans-serif;
     height: 210px;
     padding: 10px;
     border-radius: 15px;
+    border-bottom: 2px solid #c4450b;
 }
 
 .card{
@@ -50,6 +51,10 @@ $letraChakra:'Chakra Petch', sans-serif;
     background-size: 300%;
     animation-timing-function: ease-out;
     animation-delay: 0s;
+}
+
+.btn-comprar:focus{
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0);
 }
 
 /* animacion de botones de compra */
