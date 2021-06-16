@@ -343,16 +343,120 @@
 
 /* carrusel principal novedades */
 .carousel--novedades {
-  width: 85%;
+  width: 100%;
   border-radius: 20px;
-  padding-top: 16px;
+  padding-top: 5px;
+  /* imagen 1 y 2 del carrusel*/
+  /* imagen 3 del carrusel */
+  /* textos dentro de la imagen 3 del carrusel */
 }
 
-.carousel--novedades img {
-  border-radius: 18px;
-  border: 10px solid #ff8300;
+.carousel--novedades .imgCarrusel1, .carousel--novedades .imgCarrusel2 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#272222), color-stop(#d6bfbf), to(#242121));
+  background-image: linear-gradient(to top, #272222, #d6bfbf, #242121);
+  height: 406px;
 }
 
+.carousel--novedades .imgCarrusel3 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(indigo), color-stop(#181717), to(indigo));
+  background-image: linear-gradient(to top, indigo, #181717, indigo);
+  height: 406px;
+}
+
+.carousel--novedades .textNuevoCarrusel3, .carousel--novedades .textGabiCarrusel3, .carousel--novedades .textOcelotCarrusel3, .carousel--novedades .textVerCarrusel3 {
+  position: absolute;
+  top: 6%;
+  left: 18%;
+  color: white;
+  font-family: fantasy;
+  font-size: 80px;
+}
+
+.carousel--novedades .textGabiCarrusel3 {
+  top: 36%;
+  left: 20%;
+  font-size: 70px;
+}
+
+.carousel--novedades .textOcelotCarrusel3 {
+  top: 60%;
+  left: 30%;
+  font-size: 70px;
+}
+
+.carousel--novedades .textVerCarrusel3 {
+  text-decoration: none;
+  top: 80%;
+  left: 50%;
+  font-size: 40px;
+}
+
+.carousel--novedades .textVerCarrusel3:hover {
+  color: #ada496;
+}
+
+.carousel--novedades .contenedor-ps5carrusel {
+  background-color: rgba(18, 18, 170, 0.582);
+  height: 406px;
+  width: 45%;
+  position: absolute;
+  top: 0.5%;
+  left: 0%;
+}
+
+.carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel {
+  position: absolute;
+  top: 33%;
+  left: 22%;
+  list-style-type: none;
+}
+
+.carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel span {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel p {
+  color: white;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel a {
+  color: #a19999;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel a:hover {
+  color: #aa9574;
+}
+
+/* textos dentro del carrusel */
+.textConsolaCarrusel, .textJoystickCarrusel, .textHeadsetCarrusel {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 22px;
+  top: 4%;
+  left: 46%;
+}
+
+.textJoystickCarrusel {
+  color: black;
+  top: 50%;
+  left: 73%;
+}
+
+.textHeadsetCarrusel {
+  color: black;
+  top: 28%;
+  left: 17%;
+}
+
+/* botones dentro del carrusel */
 .boton {
   background-color: #ff8300;
   border-radius: 100%;
@@ -449,7 +553,7 @@
   border-top: 4px ridge #504646;
   border-bottom: 4px groove #504646;
   height: 300px;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 .metodopago1--contenedor .txtPago {
@@ -1154,15 +1258,64 @@
   }
   /* carrusel principal novedades */
   .carousel--novedades {
-    width: 85%;
-    border-radius: 18px;
+    /* imagen 1, 2 y 3 del carrusel*/
+    /* textos dentro de la imagen 3 del carrusel */
+    /* textos dentro del carrusel */
+    /* botones dentro del carrusel */
   }
-  .carousel--novedades img {
-    border-radius: 16px;
-    border: 5px solid #ff8300;
+  .carousel--novedades .imgCarrusel1, .carousel--novedades .imgCarrusel2, .carousel--novedades .imgCarrusel3 {
+    height: 125px;
   }
-  /* botones dentro del carrusel */
-  .boton {
+  .carousel--novedades .textNuevoCarrusel3, .carousel--novedades .textGabiCarrusel3, .carousel--novedades .textOcelotCarrusel3, .carousel--novedades .textVerCarrusel3 {
+    left: 16%;
+    font-size: 25px;
+  }
+  .carousel--novedades .textGabiCarrusel3 {
+    top: 36%;
+    left: 18%;
+    font-size: 21px;
+  }
+  .carousel--novedades .textOcelotCarrusel3 {
+    top: 60%;
+    left: 25%;
+    font-size: 21px;
+  }
+  .carousel--novedades .textVerCarrusel3 {
+    top: 80%;
+    left: 50%;
+    font-size: 12px;
+  }
+  .carousel--novedades .textVerCarrusel3:hover {
+    color: #ada496;
+  }
+  .carousel--novedades .contenedor-ps5carrusel {
+    width: 90%;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel {
+    top: 5%;
+    left: 8%;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel span {
+    font-size: 14px;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel p {
+    font-size: 11px;
+    margin-bottom: 4px;
+  }
+  .carousel--novedades .textConsolaCarrusel, .carousel--novedades .textJoystickCarrusel, .carousel--novedades .textHeadsetCarrusel {
+    font-size: 10px;
+    top: 1%;
+    left: 42%;
+  }
+  .carousel--novedades .textJoystickCarrusel {
+    top: 47%;
+    left: 69%;
+  }
+  .carousel--novedades .textHeadsetCarrusel {
+    top: 25%;
+    left: 14%;
+  }
+  .carousel--novedades .boton {
     height: 32px;
     width: 30px;
   }
@@ -1193,7 +1346,7 @@
   }
   /* metodo de pago */
   .metodopago1--contenedor {
-    height: 150px;
+    height: 120px;
     /* animacion de tarjeta */
     /* animacion de escudo */
     /* animacion de auto */
@@ -1465,6 +1618,65 @@
   .contHead .contHead-carUsu img {
     width: 45px;
     height: 45px;
+  }
+  /* carrusel principal novedades */
+  .carousel--novedades {
+    /* imagen 1, 2 y 3 del carrusel*/
+    /* textos dentro de la imagen 3 del carrusel */
+    /* textos dentro del carrusel */
+  }
+  .carousel--novedades .imgCarrusel1, .carousel--novedades .imgCarrusel2, .carousel--novedades .imgCarrusel3 {
+    height: 240px;
+  }
+  .carousel--novedades .textNuevoCarrusel3, .carousel--novedades .textGabiCarrusel3, .carousel--novedades .textOcelotCarrusel3, .carousel--novedades .textVerCarrusel3 {
+    top: 2%;
+    left: 12%;
+    font-size: 55px;
+  }
+  .carousel--novedades .textGabiCarrusel3 {
+    top: 32%;
+    left: 16%;
+    font-size: 48px;
+  }
+  .carousel--novedades .textOcelotCarrusel3 {
+    top: 54%;
+    left: 24%;
+    font-size: 48px;
+  }
+  .carousel--novedades .textVerCarrusel3 {
+    top: 80%;
+    left: 50%;
+    font-size: 27px;
+  }
+  .carousel--novedades .textVerCarrusel3:hover {
+    color: #ada496;
+  }
+  .carousel--novedades .contenedor-ps5carrusel {
+    width: 60%;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel {
+    top: 16%;
+    left: 13%;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel span {
+    font-size: 18px;
+  }
+  .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .carousel--novedades .textConsolaCarrusel, .carousel--novedades .textJoystickCarrusel, .carousel--novedades .textHeadsetCarrusel {
+    font-size: 17px;
+    top: 2%;
+    left: 43%;
+  }
+  .carousel--novedades .textJoystickCarrusel {
+    top: 49%;
+    left: 71%;
+  }
+  .carousel--novedades .textHeadsetCarrusel {
+    top: 26%;
+    left: 15%;
   }
   /* tamanio de letras en los submenu */
   .subps__menu .dropdown-item, .subxbox__menu .dropdown-item, .subpc__menu .dropdown-item, .subnintendo__menu .dropdown-item {
@@ -1979,7 +2191,6 @@ body {
   background-image: -webkit-gradient(linear, right top, left top, from(#0a1347), color-stop(90%, #8a500d));
   background-image: linear-gradient(to left, #0a1347, #8a500d 90%);
   padding: 0;
-  margin-bottom: 15px;
   -webkit-box-shadow: 0px 0px 20px #8a500d, 0px 0px 20px #0a1347;
           box-shadow: 0px 0px 20px #8a500d, 0px 0px 20px #0a1347;
 }
@@ -2035,5 +2246,10 @@ body {
   padding: 8px;
   background-color: #47C555;
   border-radius: 10px;
+}
+
+.wppAll:hover {
+  -webkit-box-shadow: 0px -2px 6px #369942;
+          box-shadow: 0px -2px 6px #369942;
 }
 /*# sourceMappingURL=estilos.css.map */

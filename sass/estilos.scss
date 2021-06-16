@@ -36,7 +36,6 @@ body{
     z-index: 999;
     background-image: linear-gradient(to left, rgb(10, 19, 71), rgb(138, 80, 13) 90%);
     padding: 0;
-    margin-bottom: 15px;
     box-shadow: 0px 0px 20px rgb(138, 80, 13),
                 0px 0px 20px rgb(10, 19, 71);
 }
@@ -85,4 +84,8 @@ body{
     padding: 8px;
     background-color: #47C555;
     border-radius: 10px;
+}
+
+.wppAll:hover{
+    box-shadow: 0px -2px 6px #369942;
 }

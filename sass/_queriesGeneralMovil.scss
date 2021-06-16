@@ -119,17 +119,64 @@
     
     /* carrusel principal novedades */
     .carousel--novedades{
-        width: 85%;
-        border-radius: 18px;  
-        img{
-            border-radius: 16px;
-            border: 5px solid #ff8300;
+        /* imagen 1, 2 y 3 del carrusel*/
+        .imgCarrusel1, .imgCarrusel2, .imgCarrusel3{
+            height: 125px;
         }
-    }
-    /* botones dentro del carrusel */
-    .boton{
-        height: 32px;
-        width: 30px;
+       
+        /* textos dentro de la imagen 3 del carrusel */
+        .textNuevoCarrusel3{
+            left: 16%;
+            font-size: 25px;
+        }
+        .textGabiCarrusel3{
+            top: 36%;
+            left: 18%;
+            font-size: 21px;
+        }
+        .textOcelotCarrusel3{
+            top: 60%;
+            left: 25%;
+            font-size: 21px;
+        }
+        .textVerCarrusel3{
+            top: 80%;
+            left: 50%;
+            font-size: 12px;
+        }
+        .textVerCarrusel3:hover{
+            color: rgb(173, 164, 150);
+        }
+
+        .contenedor-ps5carrusel{
+            width: 90%;
+            .list-ps5carrusel{
+                top: 5%;
+                left: 8%;
+                span{font-size: 14px;}
+                p{font-size: 11px; margin-bottom: 4px;}
+            }
+        } 
+        /* textos dentro del carrusel */
+        .textConsolaCarrusel{
+            font-size: 10px;
+            top: 1%;
+            left: 42%;
+        }
+        .textJoystickCarrusel{
+            top: 47%;
+            left: 69%;
+        }
+        .textHeadsetCarrusel{
+            top: 25%;
+            left: 14%;
+        }
+
+        /* botones dentro del carrusel */
+        .boton{
+            height: 32px;
+            width: 30px;
+        }
     }
 
     /* subtitulos de todas los html de productos */
@@ -157,7 +204,7 @@
 
     /* metodo de pago */
     .metodopago1--contenedor{
-        height: 150px;
+        height: 120px;
         img{
             width: 60px;
             height: 60px;

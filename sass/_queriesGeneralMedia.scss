@@ -38,6 +38,63 @@
         }
     }
 
+    /* carrusel principal novedades */
+    .carousel--novedades{
+        /* imagen 1, 2 y 3 del carrusel*/
+        .imgCarrusel1, .imgCarrusel2, .imgCarrusel3{
+            height: 240px;
+        }
+       
+        /* textos dentro de la imagen 3 del carrusel */
+        .textNuevoCarrusel3{
+            top: 2%;
+            left: 12%;
+            font-size: 55px;
+        }
+        .textGabiCarrusel3{
+            top: 32%;
+            left: 16%;
+            font-size: 48px;
+        }
+        .textOcelotCarrusel3{
+            top: 54%;
+            left: 24%;
+            font-size: 48px;
+        }
+        .textVerCarrusel3{
+            top: 80%;
+            left: 50%;
+            font-size: 27px;
+        }
+        .textVerCarrusel3:hover{
+            color: rgb(173, 164, 150);
+        }
+
+        .contenedor-ps5carrusel{
+            width: 60%;
+            .list-ps5carrusel{
+                top: 16%;
+                left: 13%;
+                span{font-size: 18px;}
+                p{font-size: 15px; margin-bottom: 8px;}
+            }
+        } 
+        /* textos dentro del carrusel */
+        .textConsolaCarrusel{
+            font-size: 17px;
+            top: 2%;
+            left: 43%;
+        }
+        .textJoystickCarrusel{
+            top: 49%;
+            left: 71%;
+        }
+        .textHeadsetCarrusel{
+            top: 26%;
+            left: 15%;
+        }
+    }
+
     /* tamanio de letras en los submenu */
     .subps__menu, .subxbox__menu, .subpc__menu, .subnintendo__menu{
         .dropdown-item{

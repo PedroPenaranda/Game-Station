@@ -1,14 +1,96 @@
 /* carrusel principal novedades */
 .carousel--novedades{
-    width: 85%;
+    width: 100%;
     border-radius: 20px;  
-    padding-top: 16px;
-    img{
-        border-radius: 18px;
-        border: 10px solid #ff8300;
+    padding-top: 5px;
+
+    /* imagen 1 y 2 del carrusel*/
+    .imgCarrusel1, .imgCarrusel2{
+        background-image: linear-gradient(to top, rgb(39, 34, 34), rgb(214, 191, 191), rgb(36, 33, 33));
+        height: 406px;
+    }
+    /* imagen 3 del carrusel */
+    .imgCarrusel3{
+        background-image: linear-gradient(to top, indigo, rgb(24, 23, 23), indigo);  
+        height: 406px;
+    }
+
+    /* textos dentro de la imagen 3 del carrusel */
+    .textNuevoCarrusel3{
+        position: absolute;
+        top: 6%;
+        left: 18%;
+        color: white;
+        font-family: fantasy;
+        font-size: 80px;
+    }
+    .textGabiCarrusel3{
+        @extend .textNuevoCarrusel3;
+        top: 36%;
+        left: 20%;
+        font-size: 70px;
+    }
+    .textOcelotCarrusel3{
+        @extend .textNuevoCarrusel3;
+        top: 60%;
+        left: 30%;
+        font-size: 70px;
+    }
+    .textVerCarrusel3{
+        @extend .textNuevoCarrusel3;
+        text-decoration: none;
+        top: 80%;
+        left: 50%;
+        font-size: 40px;
+    }
+    .textVerCarrusel3:hover{
+        color: rgb(173, 164, 150);
+    }
+
+    .contenedor-ps5carrusel{
+        background-color: rgba(18, 18, 170, 0.582);
+        height: 406px;
+        width: 45%;
+        position: absolute;
+        top: 0.5%;
+        left: 0%;
+        .list-ps5carrusel{
+            position: absolute;
+            top: 33%;
+            left: 22%;
+            list-style-type: none;
+            span{color: white; font-size: 22px; font-weight: bolder;}
+            p{color: white; font-size: 19px; font-weight: bolder;}
+            a{color: rgb(161, 153, 153); margin-left: 5px; text-decoration: none;}
+            a:hover{color: rgb(170, 149, 116);}
+        }
     }
 }
 
+/* textos dentro del carrusel */
+.textConsolaCarrusel{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 22px;
+    top: 4%;
+    left: 46%;
+}
+.textJoystickCarrusel{
+    @extend .textConsolaCarrusel;
+    color: black;
+    top: 50%;
+    left: 73%;
+}
+.textHeadsetCarrusel{
+    @extend .textConsolaCarrusel;
+    color: black;
+    top: 28%;
+    left: 17%;
+}
+
+/* botones dentro del carrusel */
 .boton{
     background-color: #ff8300;
     border-radius: 100%;
