@@ -36,11 +36,13 @@
     }
     
     /* navegador */
-    .head{
-        .navbar{
-            padding: 5px 0px 15px;
-            margin-top: 10px;
-        }
+    .navbar{
+        padding: 5px 0px 15px;
+        margin-top: 10px;
+        #el-nav-playstation{background-image: linear-gradient(to bottom,rgba(17, 17, 228, 0.300), rgba(5, 5, 56, 0.300));}
+        #el-nav-xbox{background-image: linear-gradient(to bottom, rgba(13, 199, 13, 0.300), rgba(7, 71, 18, 0.300));}
+        #el-nav-pc{background-image: linear-gradient(to bottom, rgba(141, 15, 231, 0.300), rgba(39, 5, 63, 0.300));}
+        #el-nav-nintendo{background-image: linear-gradient(to bottom, rgba(238, 9, 9, 0.300), rgba(97, 8, 8, 0.300));}
     }
 
     /* tamanio de letras en los submenu */
@@ -121,28 +123,32 @@
     .carousel--novedades{
         /* imagen 1, 2 y 3 del carrusel*/
         .imgCarrusel1, .imgCarrusel2, .imgCarrusel3{
-            height: 125px;
+            height: 150px;
         }
        
         /* textos dentro de la imagen 3 del carrusel */
         .textNuevoCarrusel3{
-            left: 16%;
-            font-size: 25px;
+            font-family: fantasy;
+            left: 13%;
+            font-size: 26px;
         }
         .textGabiCarrusel3{
+            font-family: fantasy;
             top: 36%;
-            left: 18%;
-            font-size: 21px;
+            left: 15%;
+            font-size: 24px;
         }
         .textOcelotCarrusel3{
+            font-family: fantasy;
             top: 60%;
-            left: 25%;
-            font-size: 21px;
+            left: 22%;
+            font-size: 24px;
         }
         .textVerCarrusel3{
+            font-family: fantasy;
             top: 80%;
-            left: 50%;
-            font-size: 12px;
+            left: 45%;
+            font-size: 17px;
         }
         .textVerCarrusel3:hover{
             color: rgb(173, 164, 150);
@@ -151,7 +157,7 @@
         .contenedor-ps5carrusel{
             width: 90%;
             .list-ps5carrusel{
-                top: 5%;
+                top: 8%;
                 left: 8%;
                 span{font-size: 14px;}
                 p{font-size: 11px; margin-bottom: 4px;}
@@ -164,11 +170,11 @@
             left: 42%;
         }
         .textJoystickCarrusel{
-            top: 47%;
+            top: 48%;
             left: 69%;
         }
         .textHeadsetCarrusel{
-            top: 25%;
+            top: 26%;
             left: 14%;
         }
 

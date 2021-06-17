@@ -1184,9 +1184,25 @@
     height: 40px;
   }
   /* navegador */
-  .head .navbar {
+  .navbar {
     padding: 5px 0px 15px;
     margin-top: 10px;
+  }
+  .navbar #el-nav-playstation {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 228, 0.3)), to(rgba(5, 5, 56, 0.3)));
+    background-image: linear-gradient(to bottom, rgba(17, 17, 228, 0.3), rgba(5, 5, 56, 0.3));
+  }
+  .navbar #el-nav-xbox {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 199, 13, 0.3)), to(rgba(7, 71, 18, 0.3)));
+    background-image: linear-gradient(to bottom, rgba(13, 199, 13, 0.3), rgba(7, 71, 18, 0.3));
+  }
+  .navbar #el-nav-pc {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(141, 15, 231, 0.3)), to(rgba(39, 5, 63, 0.3)));
+    background-image: linear-gradient(to bottom, rgba(141, 15, 231, 0.3), rgba(39, 5, 63, 0.3));
+  }
+  .navbar #el-nav-nintendo {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 9, 9, 0.3)), to(rgba(97, 8, 8, 0.3)));
+    background-image: linear-gradient(to bottom, rgba(238, 9, 9, 0.3), rgba(97, 8, 8, 0.3));
   }
   /* tamanio de letras en los submenu */
   .subps__menu .dropdown-item, .subxbox__menu .dropdown-item, .subpc__menu .dropdown-item, .subnintendo__menu .dropdown-item {
@@ -1264,26 +1280,30 @@
     /* botones dentro del carrusel */
   }
   .carousel--novedades .imgCarrusel1, .carousel--novedades .imgCarrusel2, .carousel--novedades .imgCarrusel3 {
-    height: 125px;
+    height: 150px;
   }
   .carousel--novedades .textNuevoCarrusel3, .carousel--novedades .textGabiCarrusel3, .carousel--novedades .textOcelotCarrusel3, .carousel--novedades .textVerCarrusel3 {
-    left: 16%;
-    font-size: 25px;
+    font-family: fantasy;
+    left: 13%;
+    font-size: 26px;
   }
   .carousel--novedades .textGabiCarrusel3 {
+    font-family: fantasy;
     top: 36%;
-    left: 18%;
-    font-size: 21px;
+    left: 15%;
+    font-size: 24px;
   }
   .carousel--novedades .textOcelotCarrusel3 {
+    font-family: fantasy;
     top: 60%;
-    left: 25%;
-    font-size: 21px;
+    left: 22%;
+    font-size: 24px;
   }
   .carousel--novedades .textVerCarrusel3 {
+    font-family: fantasy;
     top: 80%;
-    left: 50%;
-    font-size: 12px;
+    left: 45%;
+    font-size: 17px;
   }
   .carousel--novedades .textVerCarrusel3:hover {
     color: #ada496;
@@ -1292,7 +1312,7 @@
     width: 90%;
   }
   .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel {
-    top: 5%;
+    top: 8%;
     left: 8%;
   }
   .carousel--novedades .contenedor-ps5carrusel .list-ps5carrusel span {
@@ -1308,11 +1328,11 @@
     left: 42%;
   }
   .carousel--novedades .textJoystickCarrusel {
-    top: 47%;
+    top: 48%;
     left: 69%;
   }
   .carousel--novedades .textHeadsetCarrusel {
-    top: 25%;
+    top: 26%;
     left: 14%;
   }
   .carousel--novedades .boton {
@@ -1629,21 +1649,25 @@
     height: 240px;
   }
   .carousel--novedades .textNuevoCarrusel3, .carousel--novedades .textGabiCarrusel3, .carousel--novedades .textOcelotCarrusel3, .carousel--novedades .textVerCarrusel3 {
+    font-family: fantasy;
     top: 2%;
     left: 12%;
     font-size: 55px;
   }
   .carousel--novedades .textGabiCarrusel3 {
+    font-family: fantasy;
     top: 32%;
     left: 16%;
     font-size: 48px;
   }
   .carousel--novedades .textOcelotCarrusel3 {
+    font-family: fantasy;
     top: 54%;
     left: 24%;
     font-size: 48px;
   }
   .carousel--novedades .textVerCarrusel3 {
+    font-family: fantasy;
     top: 80%;
     left: 50%;
     font-size: 27px;
