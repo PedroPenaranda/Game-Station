@@ -38,6 +38,14 @@
         }
     }
 
+    /* navegador */
+    .navbar{
+        #el-nav-playstation{background-image: linear-gradient(to bottom,rgba(17, 17, 228, 0.300), rgba(5, 5, 56, 0.300));}
+        #el-nav-xbox{background-image: linear-gradient(to bottom, rgba(13, 199, 13, 0.300), rgba(7, 71, 18, 0.300));}
+        #el-nav-pc{background-image: linear-gradient(to bottom, rgba(141, 15, 231, 0.300), rgba(39, 5, 63, 0.300));}
+        #el-nav-nintendo{background-image: linear-gradient(to bottom, rgba(238, 9, 9, 0.300), rgba(97, 8, 8, 0.300));}
+    }
+
     /* carrusel principal novedades */
     .carousel--novedades{
         /* imagen 1, 2 y 3 del carrusel*/

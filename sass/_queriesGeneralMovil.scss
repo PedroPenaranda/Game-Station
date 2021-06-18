@@ -128,27 +128,31 @@
        
         /* textos dentro de la imagen 3 del carrusel */
         .textNuevoCarrusel3{
-            font-family: fantasy;
-            left: 13%;
-            font-size: 26px;
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: bolder;
+            left: 11%;
+            font-size: 25px;
         }
         .textGabiCarrusel3{
-            font-family: fantasy;
-            top: 36%;
-            left: 15%;
-            font-size: 24px;
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: bolder;
+            top: 35%;
+            left: 13%;
+            font-size: 23px;
         }
         .textOcelotCarrusel3{
-            font-family: fantasy;
-            top: 60%;
-            left: 22%;
-            font-size: 24px;
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: bolder;
+            top: 58%;
+            left: 20%;
+            font-size: 23px;
         }
         .textVerCarrusel3{
-            font-family: fantasy;
+            font-family: 'Archivo Black', sans-serif;
+            font-weight: bolder;
             top: 80%;
-            left: 45%;
-            font-size: 17px;
+            left: 44%;
+            font-size: 15px;
         }
         .textVerCarrusel3:hover{
             color: rgb(173, 164, 150);
@@ -157,15 +161,15 @@
         .contenedor-ps5carrusel{
             width: 90%;
             .list-ps5carrusel{
-                top: 8%;
-                left: 8%;
+                top: 7%;
+                left: 6%;
                 span{font-size: 14px;}
-                p{font-size: 11px; margin-bottom: 4px;}
+                p{font-size: 12px; margin-bottom: 4px;}
             }
         } 
         /* textos dentro del carrusel */
         .textConsolaCarrusel{
-            font-size: 10px;
+            font-size: 12px;
             top: 1%;
             left: 42%;
         }
@@ -257,7 +261,7 @@
         justify-items: left;
         .tlf{
             padding: 0px 8px;
-            font-size: 17px;
+            font-size: 15px;
         }
         a{
             font-size: 13px;
@@ -267,7 +271,7 @@
 
         .seccion--comprar{
             grid-area: fComprar;
-            margin-bottom: 15px;
+            margin-bottom: 13px;
         }
         
         .seccion--ayuda{
@@ -276,7 +280,7 @@
         
         .seccion--nproductos{
             grid-area: fNproductos;
-            margin-bottom: 15px;
+            margin-bottom: 13px;
         }
         
         .seccion--soporte{
@@ -313,12 +317,12 @@
     .seccion--rsociales{
         grid-area: social;
         h5{
-            padding: 0px 28px;
-            font-size: 17px;
+            padding: 0px 26px;
+            font-size: 15px;
         }
         img{
-            width: 40px;
-            height: 40px;
+            width: 36px;
+            height: 36px;
         } 
     }
     
