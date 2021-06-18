@@ -170,7 +170,7 @@
         .pantalla{
             width: 240px;
             height: 250px;
-            left: 1%;
+            left: 2%;
             top: 30px;
             transform: perspective(0px);
         }
@@ -200,14 +200,14 @@
         }
         .contenedor-error{
         width: 65%;
-        height: 460px;
+        height: 480px;
         top: 60px;
         }
         .contenedor-txtError{
             width: 224.5px;
             height: 131px;
-            top: 9%;
-            left: 9.5px;
+            top: 8.5%;
+            left: 12.5px;
             transform: perspective(0px) rotateY(0deg) rotate(0deg);
             animation: txterror 2s infinite 0s;
         }
