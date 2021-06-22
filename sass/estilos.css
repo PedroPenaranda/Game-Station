@@ -19,6 +19,7 @@
   font-weight: bolder;
   position: relative;
   top: 25px;
+  text-shadow: 8px 8px 8px #000000;
 }
 
 .contHead .logo-head {
@@ -1192,6 +1193,7 @@
   .contHead .contHead-logTituPrincipal h1 .gstation__titulo {
     font-size: 25px;
     letter-spacing: 10px;
+    text-shadow: 5px 5px 5px #000000;
   }
   .contHead .contHead-buscar {
     margin-left: 10px;
