@@ -330,6 +330,8 @@
 .imgGs__menu, .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu {
   width: 90px;
   height: 90px;
+  -webkit-box-shadow: 3px 3px 7px black;
+          box-shadow: 3px 3px 7px black;
 }
 
 /* modificacion de las letras del nav principal */
@@ -339,6 +341,7 @@
   font-weight: bold;
   font-family: "Chakra Petch", sans-serif;
   margin: 0px;
+  text-shadow: 3px 3px 6px black;
 }
 
 /* carrusel principal novedades */
@@ -855,8 +858,9 @@
   text-align: center;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 45px;
-  -webkit-text-stroke: 0.5px white;
   padding-bottom: 15px;
+  text-shadow: 4px 4px 9px black;
+  font-weight: bolder;
 }
 
 .card--ps {
@@ -900,9 +904,10 @@
   text-align: center;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 45px;
-  -webkit-text-stroke: 0.5px white;
   padding-bottom: 15px;
   letter-spacing: 1rem;
+  text-shadow: 3px 3px 5px black;
+  font-weight: bolder;
 }
 
 .card--xbox {
@@ -942,13 +947,20 @@
 }
 
 .subti--pc {
-  color: indigo;
+  color: #7303c2;
   text-align: center;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 45px;
-  -webkit-text-stroke: 0.5px white;
   padding-bottom: 15px;
   letter-spacing: 1rem;
+  text-shadow: 3px 3px 5px black;
+  font-weight: bolder;
+}
+
+.contenedor-subMenuPc {
+  position: absolute;
+  top: 5.5%;
+  left: 1.2%;
 }
 
 .contenedor-subMenuPc .btn-subPc {
@@ -958,6 +970,13 @@
   border-radius: 10px;
   color: white;
   font-size: 18px;
+}
+
+.contenedor-subMenuPc .btn-subPc:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#6c0daf), to(#160324));
+  background-image: linear-gradient(to top, #6c0daf, #160324);
 }
 
 .contenedor-subMenuPc .submenuPc {
@@ -1017,8 +1036,9 @@
   text-align: center;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 45px;
-  -webkit-text-stroke: 0.5px white;
   padding-bottom: 15px;
+  text-shadow: 3px 3px 5px black;
+  font-weight: bolder;
 }
 
 .card--nintendo {
@@ -1063,10 +1083,12 @@
   padding: 10px;
   border-radius: 15px;
   border-bottom: 2px solid #c4450b;
+  -webkit-box-shadow: 0px 5px 4px black;
+          box-shadow: 0px 5px 4px black;
 }
 
 .card {
-  margin: 2px;
+  margin: 5px;
   border-radius: 10px;
   height: auto;
 }
@@ -1078,11 +1100,13 @@
 .card-title {
   color: white;
   text-align: center;
+  text-shadow: 5px 5px 7px black;
 }
 
 .card-precio {
   color: white;
   text-align: center;
+  text-shadow: 1px 1px 3px black;
 }
 
 .btn-comprar {
@@ -1093,6 +1117,7 @@
   font-family: "Chakra Petch", sans-serif;
   padding: 2px;
   margin-bottom: 0px;
+  text-shadow: 2px 2px 4px black;
 }
 
 .btn-comprar:hover, .formulario .btn-cancelar:hover, .formulario .btn-volver:hover {
@@ -1248,6 +1273,8 @@
             animation-timing-function: ease-out;
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
+    -webkit-box-shadow: 2px 2px 6px black;
+            box-shadow: 2px 2px 6px black;
   }
   #home .el-h5Home {
     position: absolute;
@@ -1259,6 +1286,7 @@
     margin: 0px;
     top: 16px;
     left: 70px;
+    text-shadow: 3px 3px 6px black;
   }
   .index {
     position: absolute;
@@ -1354,6 +1382,22 @@
     font-weight: bolder;
     padding-left: 10px;
     padding-top: 25px;
+  }
+  /* boton de pc de submenu */
+  .contenedor-subMenuPc {
+    top: 2%;
+    left: 63%;
+  }
+  .contenedor-subMenuPc .btn-subPc {
+    font-size: 13px;
+  }
+  .contenedor-subMenuPc .submenuPc li a {
+    color: white;
+    text-align: center;
+  }
+  .contenedor-subMenuPc .submenuPc li a:hover {
+    background-color: rgba(71, 24, 104, 0.568);
+    text-align: left;
   }
   /* nueva posicion de las cards para el responsive */
   .allProduct {
@@ -1762,6 +1806,8 @@
             animation-timing-function: ease-out;
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
+    -webkit-box-shadow: 2px 2px 6px black;
+            box-shadow: 2px 2px 6px black;
   }
   #home .el-h5Home {
     position: absolute;
@@ -1773,6 +1819,7 @@
     margin: 0px;
     top: 30px;
     left: 93px;
+    text-shadow: 3px 3px 6px black;
   }
   .index {
     position: absolute;
@@ -2261,6 +2308,7 @@ body {
   position: relative;
   top: 15px;
   left: 10px;
+  text-shadow: 5px 5px 9px black;
 }
 
 /* linea de separacion de los subtitulos en los productos */

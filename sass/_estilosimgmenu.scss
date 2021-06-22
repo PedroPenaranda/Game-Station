@@ -170,6 +170,7 @@ $letraChakra:'Chakra Petch', sans-serif;
 .imgGs__menu, .imgPs__menu, .imgXbox__menu, .imgPc__menu, .imgNintendo__menu{
     width: 90px;
     height: 90px;
+    box-shadow: 3px 3px 7px black;
 }
 
 /* modificacion de las letras del nav principal */
@@ -179,5 +180,6 @@ $letraChakra:'Chakra Petch', sans-serif;
     font-weight: bold;
     font-family: $letraChakra;
     margin: 0px;
+    text-shadow: 3px 3px 6px black;
 }
 

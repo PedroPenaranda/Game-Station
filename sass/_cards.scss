@@ -7,10 +7,11 @@ $letraChakra:'Chakra Petch', sans-serif;
     padding: 10px;
     border-radius: 15px;
     border-bottom: 2px solid #c4450b;
+    box-shadow: 0px 5px 4px black;
 }
 
 .card{
-    margin: 2px;
+    margin: 5px;
     border-radius: 10px;
     height: auto;
 }
@@ -22,11 +23,13 @@ $letraChakra:'Chakra Petch', sans-serif;
 .card-title{
     color: white;
     text-align: center;
+    text-shadow: 5px 5px 7px black;
 }
 
 .card-precio{
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 3px black;
 }
 
 
@@ -38,6 +41,7 @@ $letraChakra:'Chakra Petch', sans-serif;
     font-family: $letraChakra;
     padding: 2px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px 4px black;
 }
 
 .btn-comprar:hover{

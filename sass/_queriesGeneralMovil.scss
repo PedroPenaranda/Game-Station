@@ -91,6 +91,7 @@
             background-size: 450%;
             animation-timing-function: ease-out;
             animation-delay: 0s;
+            box-shadow: 2px 2px 6px black;
         }
         .el-h5Home{
             position: absolute;
@@ -102,6 +103,7 @@
             margin: 0px;
             top: 16px;
             left: 70px;
+            text-shadow: 3px 3px 6px black;
         }
     } 
 
@@ -203,6 +205,29 @@
             padding-left: 10px;
             padding-top: 25px;
         }
+    }
+
+    /* boton de pc de submenu */
+    .contenedor-subMenuPc{
+        top: 2%;
+        left: 63%;
+        .btn-subPc{
+            font-size: 13px;
+        }
+    
+        .submenuPc{
+            li{
+                a{
+                    color: white;
+                    text-align: center;
+                }
+                a:hover{
+                    background-color: rgba(71, 24, 104, 0.568);
+                    text-align: left;
+                }
+            }
+        }
+    
     }
 
     /* nueva posicion de las cards para el responsive */

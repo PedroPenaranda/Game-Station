@@ -1,20 +1,28 @@
 .subti--pc{
-    color: indigo;
+    color: rgb(115, 3, 194);
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 45px;
-    -webkit-text-stroke: 0.5px white;
     padding-bottom: 15px;
     letter-spacing: 1rem;
+    text-shadow: 3px 3px 5px black;
+    font-weight: bolder;
 }
 
 .contenedor-subMenuPc{
+    position: absolute;
+    top: 5.5%;
+    left: 1.2%;
     .btn-subPc{
         background-image: linear-gradient(to top, rgb(141, 15, 231), rgb(39, 5, 63));
         margin-left: 15px;
         border-radius: 10px;
         color: white;
         font-size: 18px;
+    }
+    .btn-subPc:focus{
+        box-shadow: none;
+        background-image: linear-gradient(to top, rgb(108, 13, 175), rgb(22, 3, 36));
     }
 
     .submenuPc{
