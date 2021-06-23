@@ -968,7 +968,7 @@
   background-image: -webkit-gradient(linear, left bottom, left top, from(#8d0fe7), to(#27053f));
   background-image: linear-gradient(to top, #8d0fe7, #27053f);
   margin-left: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   color: white;
   font-size: 18px;
 }
@@ -1387,8 +1387,8 @@
   }
   /* boton de pc de submenu */
   .contenedor-subMenuPc {
-    top: 2%;
-    left: 63%;
+    top: 1.8%;
+    left: -3%;
   }
   .contenedor-subMenuPc .btn-subPc {
     font-size: 13px;
